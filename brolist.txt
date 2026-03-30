@@ -6,7 +6,7 @@ gl-inet.com
 #HOME
 ikea.com
 
-#TG
+#TG.DOMAINS
 t.me
 tg.dev
 tg.org
@@ -62,6 +62,8 @@ usercontent.dev
 tgram.org
 torg.org
 tcdn.me
+
+#TG.IP | Актуальный список https://core.telegram.org/resources/cidr.txt
 91.108.4.0/22
 91.108.8.0/22
 91.108.12.0/22
