@@ -1,0 +1,41 @@
+name: Refresh IP Lists
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-ip-lists
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh IP files
+        run: python scripts/resolve.py
+
+      - name: Commit and push changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ips.txt ips_v4.txt ips_v6.txt wireguard_allowed_ips.txt shadowsocks_ips.txt state/resolve_state.json
+          git commit -m "chore: refresh ip lists ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git push
