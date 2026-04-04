@@ -1,0 +1,539 @@
+[
+  {
+    "hostname" : "abacus.ai"
+  },
+  {
+    "hostname" : "amazon.com"
+  },
+  {
+    "hostname" : "amnezia.org"
+  },
+  {
+    "hostname" : "anthropic.com"
+  },
+  {
+    "hostname" : "auth0.com"
+  },
+  {
+    "hostname" : "azureedge.net"
+  },
+  {
+    "hostname" : "azurewebsites.net"
+  },
+  {
+    "hostname" : "babia.to"
+  },
+  {
+    "hostname" : "bandsintown.com"
+  },
+  {
+    "hostname" : "bestchange.net"
+  },
+  {
+    "hostname" : "bestchange.ru"
+  },
+  {
+    "hostname" : "browser-intake-datadoghq.com"
+  },
+  {
+    "hostname" : "cdn-telegram.org"
+  },
+  {
+    "hostname" : "cdninstagram.com"
+  },
+  {
+    "hostname" : "chatgpt.com"
+  },
+  {
+    "hostname" : "claude.com"
+  },
+  {
+    "hostname" : "cloudflare.com"
+  },
+  {
+    "hostname" : "comments.app"
+  },
+  {
+    "hostname" : "contest.com"
+  },
+  {
+    "hostname" : "contest.dev"
+  },
+  {
+    "hostname" : "deepl.com"
+  },
+  {
+    "hostname" : "dell.com"
+  },
+  {
+    "hostname" : "elementor.com"
+  },
+  {
+    "hostname" : "elevenlabs.io"
+  },
+  {
+    "hostname" : "envato.com"
+  },
+  {
+    "hostname" : "facebook.com"
+  },
+  {
+    "hostname" : "facebook.net"
+  },
+  {
+    "hostname" : "fb.com"
+  },
+  {
+    "hostname" : "fb.me"
+  },
+  {
+    "hostname" : "fbcdn.net"
+  },
+  {
+    "hostname" : "fbsbx.com"
+  },
+  {
+    "hostname" : "featureassets.org"
+  },
+  {
+    "hostname" : "featuregates.org"
+  },
+  {
+    "hostname" : "fragment.com"
+  },
+  {
+    "hostname" : "ftx.com"
+  },
+  {
+    "hostname" : "ggpht.com"
+  },
+  {
+    "hostname" : "ghe.com"
+  },
+  {
+    "hostname" : "github.com"
+  },
+  {
+    "hostname" : "github.io"
+  },
+  {
+    "hostname" : "githubassets.com"
+  },
+  {
+    "hostname" : "githubcloudusercontent.com"
+  },
+  {
+    "hostname" : "githubcopilot.com"
+  },
+  {
+    "hostname" : "githubusercontent.com"
+  },
+  {
+    "hostname" : "gl-inet.com"
+  },
+  {
+    "hostname" : "godaddy.com"
+  },
+  {
+    "hostname" : "google.com"
+  },
+  {
+    "hostname" : "googleapis.com"
+  },
+  {
+    "hostname" : "googlevideo.com"
+  },
+  {
+    "hostname" : "graph.org"
+  },
+  {
+    "hostname" : "grok.com"
+  },
+  {
+    "hostname" : "gstatic.com"
+  },
+  {
+    "hostname" : "hdrezka.ac"
+  },
+  {
+    "hostname" : "hdrezka.fans"
+  },
+  {
+    "hostname" : "hestiacp.com"
+  },
+  {
+    "hostname" : "ig.me"
+  },
+  {
+    "hostname" : "igsonar.com"
+  },
+  {
+    "hostname" : "ikea.com"
+  },
+  {
+    "hostname" : "imgix.net"
+  },
+  {
+    "hostname" : "instagr.am"
+  },
+  {
+    "hostname" : "instagram.com"
+  },
+  {
+    "hostname" : "intel.com"
+  },
+  {
+    "hostname" : "intercom.com"
+  },
+  {
+    "hostname" : "intercom.io"
+  },
+  {
+    "hostname" : "intercomcdn.com"
+  },
+  {
+    "hostname" : "kinozal.tv"
+  },
+  {
+    "hostname" : "landr.com"
+  },
+  {
+    "hostname" : "launchdarkly.com"
+  },
+  {
+    "hostname" : "livekit.cloud"
+  },
+  {
+    "hostname" : "m.me"
+  },
+  {
+    "hostname" : "marzban.click"
+  },
+  {
+    "hostname" : "messenger.com"
+  },
+  {
+    "hostname" : "meta.ai"
+  },
+  {
+    "hostname" : "meta.com"
+  },
+  {
+    "hostname" : "meta.net"
+  },
+  {
+    "hostname" : "microsoftonline.com"
+  },
+  {
+    "hostname" : "mmg.whatsapp.net"
+  },
+  {
+    "hostname" : "msauth.net"
+  },
+  {
+    "hostname" : "msecnd.net"
+  },
+  {
+    "hostname" : "msftauth.net"
+  },
+  {
+    "hostname" : "n8n.cloud"
+  },
+  {
+    "hostname" : "n8n.io"
+  },
+  {
+    "hostname" : "nicegram.app"
+  },
+  {
+    "hostname" : "nnmclub.to"
+  },
+  {
+    "hostname" : "oaistatic.com"
+  },
+  {
+    "hostname" : "oaiusercontent.com"
+  },
+  {
+    "hostname" : "openai.com"
+  },
+  {
+    "hostname" : "openclaw.ai"
+  },
+  {
+    "hostname" : "openwrt.org"
+  },
+  {
+    "hostname" : "output.com"
+  },
+  {
+    "hostname" : "paypal.com"
+  },
+  {
+    "hostname" : "playstation.com"
+  },
+  {
+    "hostname" : "pps.whatsapp.net"
+  },
+  {
+    "hostname" : "prodregistryv2.org"
+  },
+  {
+    "hostname" : "quiz.directory"
+  },
+  {
+    "hostname" : "retool.com"
+  },
+  {
+    "hostname" : "rezka.ag"
+  },
+  {
+    "hostname" : "rutor.org"
+  },
+  {
+    "hostname" : "rutracker.cc"
+  },
+  {
+    "hostname" : "rutracker.org"
+  },
+  {
+    "hostname" : "rutracker.wiki"
+  },
+  {
+    "hostname" : "sentry.io"
+  },
+  {
+    "hostname" : "signal.whatsapp.net"
+  },
+  {
+    "hostname" : "sony.com"
+  },
+  {
+    "hostname" : "speedtest.net"
+  },
+  {
+    "hostname" : "spotify.com"
+  },
+  {
+    "hostname" : "static.whatsapp.net"
+  },
+  {
+    "hostname" : "statsig.com"
+  },
+  {
+    "hostname" : "statsigapi.net"
+  },
+  {
+    "hostname" : "stripe.com"
+  },
+  {
+    "hostname" : "supermicro.com"
+  },
+  {
+    "hostname" : "t.me"
+  },
+  {
+    "hostname" : "tangem.com"
+  },
+  {
+    "hostname" : "tcdn.me"
+  },
+  {
+    "hostname" : "tdesktop.com"
+  },
+  {
+    "hostname" : "teleg.xyz"
+  },
+  {
+    "hostname" : "telega.one"
+  },
+  {
+    "hostname" : "telegra.ph"
+  },
+  {
+    "hostname" : "telegram-cdn.org"
+  },
+  {
+    "hostname" : "telegram.ai"
+  },
+  {
+    "hostname" : "telegram.asia"
+  },
+  {
+    "hostname" : "telegram.biz"
+  },
+  {
+    "hostname" : "telegram.cloud"
+  },
+  {
+    "hostname" : "telegram.cn"
+  },
+  {
+    "hostname" : "telegram.co"
+  },
+  {
+    "hostname" : "telegram.com"
+  },
+  {
+    "hostname" : "telegram.de"
+  },
+  {
+    "hostname" : "telegram.dev"
+  },
+  {
+    "hostname" : "telegram.dog"
+  },
+  {
+    "hostname" : "telegram.eu"
+  },
+  {
+    "hostname" : "telegram.fr"
+  },
+  {
+    "hostname" : "telegram.host"
+  },
+  {
+    "hostname" : "telegram.in"
+  },
+  {
+    "hostname" : "telegram.info"
+  },
+  {
+    "hostname" : "telegram.io"
+  },
+  {
+    "hostname" : "telegram.jp"
+  },
+  {
+    "hostname" : "telegram.me"
+  },
+  {
+    "hostname" : "telegram.net"
+  },
+  {
+    "hostname" : "telegram.org"
+  },
+  {
+    "hostname" : "telegram.qa"
+  },
+  {
+    "hostname" : "telegram.ru"
+  },
+  {
+    "hostname" : "telegram.services"
+  },
+  {
+    "hostname" : "telegram.solutions"
+  },
+  {
+    "hostname" : "telegram.space"
+  },
+  {
+    "hostname" : "telegram.team"
+  },
+  {
+    "hostname" : "telegram.tech"
+  },
+  {
+    "hostname" : "telegram.uk"
+  },
+  {
+    "hostname" : "telegram.us"
+  },
+  {
+    "hostname" : "telegram.website"
+  },
+  {
+    "hostname" : "telegram.xyz"
+  },
+  {
+    "hostname" : "telegramapp.org"
+  },
+  {
+    "hostname" : "telegramdownload.com"
+  },
+  {
+    "hostname" : "telesco.pe"
+  },
+  {
+    "hostname" : "tg.dev"
+  },
+  {
+    "hostname" : "tg.org"
+  },
+  {
+    "hostname" : "tgram.org"
+  },
+  {
+    "hostname" : "torg.org"
+  },
+  {
+    "hostname" : "tx.me"
+  },
+  {
+    "hostname" : "ubnt.com"
+  },
+  {
+    "hostname" : "uizard.io"
+  },
+  {
+    "hostname" : "usercontent.dev"
+  },
+  {
+    "hostname" : "visualstudio.com"
+  },
+  {
+    "hostname" : "wa.me"
+  },
+  {
+    "hostname" : "warp.dev"
+  },
+  {
+    "hostname" : "web.whatsapp.com"
+  },
+  {
+    "hostname" : "whatsapp-cdn.net"
+  },
+  {
+    "hostname" : "whatsapp.biz"
+  },
+  {
+    "hostname" : "whatsapp.com"
+  },
+  {
+    "hostname" : "whatsapp.com.edgekey.net"
+  },
+  {
+    "hostname" : "whatsapp.net"
+  },
+  {
+    "hostname" : "windows.net"
+  },
+  {
+    "hostname" : "wireguard.com"
+  },
+  {
+    "hostname" : "wordfence.com"
+  },
+  {
+    "hostname" : "workos.com"
+  },
+  {
+    "hostname" : "workoscdn.com"
+  },
+  {
+    "hostname" : "wsimg.com"
+  },
+  {
+    "hostname" : "youtu.be"
+  },
+  {
+    "hostname" : "youtube-nocookie.com"
+  },
+  {
+    "hostname" : "youtube.com"
+  },
+  {
+    "hostname" : "ytimg.com"
+  }
+]

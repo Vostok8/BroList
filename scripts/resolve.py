@@ -16,6 +16,7 @@ OUTPUT_IPS_V4 = ROOT / "ips_v4.txt"
 OUTPUT_IPS_V6 = ROOT / "ips_v6.txt"
 OUTPUT_WG = ROOT / "wireguard_allowed_ips.txt"
 OUTPUT_SS = ROOT / "shadowsocks_ips.txt"
+OUTPUT_AMNEZIA_SITES = ROOT / "amnezia_sites.json"
 
 DOMAIN_RE = re.compile(r"^(?=.{1,253}$)(?!-)[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?(?:\.[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?)+\.?$")
 
@@ -34,6 +35,14 @@ def _sorted_ip_entries(entries: set[str]) -> list[str]:
 def _write_lines(path: Path, lines: list[str]) -> None:
     content = "\n".join(lines).rstrip("\n") + "\n"
     path.write_text(content, encoding="utf-8")
+
+
+def _write_amnezia_sites(path: Path, domains: set[str]) -> None:
+    items = [{"hostname": domain} for domain in sorted(domains)]
+    path.write_text(
+        json.dumps(items, ensure_ascii=False, indent=2, separators=(",", " : ")) + "\n",
+        encoding="utf-8",
+    )
 
 
 def _load_state() -> dict:
@@ -153,6 +162,7 @@ def main() -> int:
     _write_lines(OUTPUT_WG, [f"AllowedIPs = {', '.join(wg_entries)}"])
 
     _write_lines(OUTPUT_SS, merged_ipv4)
+    _write_amnezia_sites(OUTPUT_AMNEZIA_SITES, domains)
 
     _save_state({"domains": next_state_domains})
 
