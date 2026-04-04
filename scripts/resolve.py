@@ -25,9 +25,9 @@ def _sorted_ip_entries(entries: set[str]) -> list[str]:
     def key(value: str):
         if "/" in value:
             net = ipaddress.ip_network(value, strict=False)
-            return (1, int(net.network_address), net.prefixlen, value)
+            return (net.version, 1, int(net.network_address), net.prefixlen, value)
         addr = ipaddress.ip_address(value)
-        return (0, int(addr), value)
+        return (addr.version, 0, int(addr), value)
 
     return sorted(entries, key=key)
 
@@ -64,9 +64,10 @@ def _save_state(state: dict) -> None:
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=True, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
-def _parse_input() -> tuple[set[str], set[str]]:
+def _parse_input() -> tuple[set[str], set[str], set[str]]:
     domains: set[str] = set()
     static_ipv4: set[str] = set()
+    static_ipv6: set[str] = set()
 
     for raw_line in INPUT_FILE.read_text(encoding="utf-8").splitlines():
         line = raw_line.split("#", 1)[0].strip()
@@ -77,6 +78,8 @@ def _parse_input() -> tuple[set[str], set[str]]:
             addr = ipaddress.ip_address(line)
             if addr.version == 4:
                 static_ipv4.add(str(addr))
+            else:
+                static_ipv6.add(str(addr))
             continue
         except ValueError:
             pass
@@ -85,6 +88,8 @@ def _parse_input() -> tuple[set[str], set[str]]:
             net = ipaddress.ip_network(line, strict=False)
             if net.version == 4:
                 static_ipv4.add(str(net))
+            else:
+                static_ipv6.add(str(net))
             continue
         except ValueError:
             pass
@@ -93,21 +98,25 @@ def _parse_input() -> tuple[set[str], set[str]]:
         if DOMAIN_RE.fullmatch(domain):
             domains.add(domain)
 
-    return domains, static_ipv4
+    return domains, static_ipv4, static_ipv6
 
 
-def _resolve_a_records(domain: str) -> list[str]:
-    ips = set()
+def _resolve_records(domain: str) -> tuple[set[str], set[str]]:
+    ipv4: set[str] = set()
+    ipv6: set[str] = set()
     try:
-        # AF_INET limits resolution to IPv4 as requested.
-        for item in socket.getaddrinfo(domain, None, socket.AF_INET, socket.SOCK_STREAM):
+        for item in socket.getaddrinfo(domain, None, socket.AF_UNSPEC, socket.SOCK_STREAM):
             sockaddr = item[4]
             if sockaddr and sockaddr[0]:
-                ips.add(sockaddr[0])
+                ip = str(ipaddress.ip_address(sockaddr[0]))
+                if ":" in ip:
+                    ipv6.add(ip)
+                else:
+                    ipv4.add(ip)
     except socket.gaierror:
-        return []
+        return set(), set()
 
-    return _sorted_ip_entries(ips)
+    return ipv4, ipv6
 
 
 def main() -> int:
@@ -118,17 +127,20 @@ def main() -> int:
     state = _load_state()
     domains_state: dict = state.get("domains", {})
 
-    domains, static_ipv4 = _parse_input()
+    domains, static_ipv4, static_ipv6 = _parse_input()
 
     next_state_domains: dict[str, dict] = {}
     resolved_ipv4: set[str] = set()
+    resolved_ipv6: set[str] = set()
 
     for domain in sorted(domains):
-        resolved = _resolve_a_records(domain)
-        if resolved:
-            resolved_ipv4.update(resolved)
+        resolved_v4, resolved_v6 = _resolve_records(domain)
+        if resolved_v4 or resolved_v6:
+            resolved_ipv4.update(resolved_v4)
+            resolved_ipv6.update(resolved_v6)
             next_state_domains[domain] = {
-                "ips": resolved,
+                "ips_v4": _sorted_ip_entries(resolved_v4),
+                "ips_v6": _sorted_ip_entries(resolved_v6),
                 "last_success_ts": now,
             }
             continue
@@ -137,21 +149,26 @@ def main() -> int:
         if not previous:
             continue
 
-        prev_ips = previous.get("ips") or []
+        prev_ips_v4 = previous.get("ips_v4") or previous.get("ips") or []
+        prev_ips_v6 = previous.get("ips_v6") or []
         last_success_ts = int(previous.get("last_success_ts") or 0)
 
-        if prev_ips and (now - last_success_ts) <= RETENTION_SECONDS:
-            resolved_ipv4.update(prev_ips)
+        if (prev_ips_v4 or prev_ips_v6) and (now - last_success_ts) <= RETENTION_SECONDS:
+            resolved_ipv4.update(prev_ips_v4)
+            resolved_ipv6.update(prev_ips_v6)
             next_state_domains[domain] = {
-                "ips": _sorted_ip_entries(set(prev_ips)),
+                "ips_v4": _sorted_ip_entries(set(prev_ips_v4)),
+                "ips_v6": _sorted_ip_entries(set(prev_ips_v6)),
                 "last_success_ts": last_success_ts,
             }
 
     merged_ipv4 = _sorted_ip_entries(static_ipv4 | resolved_ipv4)
+    merged_ipv6 = _sorted_ip_entries(static_ipv6 | resolved_ipv6)
+    merged_all = _sorted_ip_entries(static_ipv4 | resolved_ipv4 | static_ipv6 | resolved_ipv6)
 
-    _write_lines(OUTPUT_IPS, merged_ipv4)
+    _write_lines(OUTPUT_IPS, merged_all)
     _write_lines(OUTPUT_IPS_V4, merged_ipv4)
-    _write_lines(OUTPUT_IPS_V6, [])
+    _write_lines(OUTPUT_IPS_V6, merged_ipv6)
 
     wg_entries = []
     for entry in merged_ipv4:
@@ -168,7 +185,10 @@ def main() -> int:
 
     print(f"Domains in source: {len(domains)}")
     print(f"Static IPv4/CIDR in source: {len(static_ipv4)}")
+    print(f"Static IPv6/CIDR in source: {len(static_ipv6)}")
     print(f"Final IPv4 entries: {len(merged_ipv4)}")
+    print(f"Final IPv6 entries: {len(merged_ipv6)}")
+    print(f"Final combined entries: {len(merged_all)}")
     return 0
 
 
