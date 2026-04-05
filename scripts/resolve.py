@@ -176,6 +176,11 @@ def main() -> int:
             wg_entries.append(entry)
         else:
             wg_entries.append(f"{entry}/32")
+    for entry in merged_ipv6:
+        if "/" in entry:
+            wg_entries.append(entry)
+        else:
+            wg_entries.append(f"{entry}/128")
     _write_lines(OUTPUT_WG, [f"AllowedIPs = {', '.join(wg_entries)}"])
 
     _write_lines(OUTPUT_SS, merged_ipv4)
