@@ -37,8 +37,11 @@ def _write_lines(path: Path, lines: list[str]) -> None:
     path.write_text(content, encoding="utf-8")
 
 
-def _write_amnezia_sites(path: Path, domains: set[str]) -> None:
-    items = [{"hostname": domain} for domain in sorted(domains)]
+def _write_amnezia_sites(path: Path, domain_ips: dict[str, set[str]]) -> None:
+    items = []
+    for domain in sorted(domain_ips):
+        for ip in _sorted_ip_entries(domain_ips[domain]):
+            items.append({"hostname": domain, "ip": ip})
     path.write_text(
         json.dumps(items, ensure_ascii=False, indent=2, separators=(",", " : ")) + "\n",
         encoding="utf-8",
@@ -132,12 +135,14 @@ def main() -> int:
     next_state_domains: dict[str, dict] = {}
     resolved_ipv4: set[str] = set()
     resolved_ipv6: set[str] = set()
+    amnezia_domain_ips: dict[str, set[str]] = {}
 
     for domain in sorted(domains):
         resolved_v4, resolved_v6 = _resolve_records(domain)
         if resolved_v4 or resolved_v6:
             resolved_ipv4.update(resolved_v4)
             resolved_ipv6.update(resolved_v6)
+            amnezia_domain_ips[domain] = set(resolved_v4 | resolved_v6)
             next_state_domains[domain] = {
                 "ips_v4": _sorted_ip_entries(resolved_v4),
                 "ips_v6": _sorted_ip_entries(resolved_v6),
@@ -156,6 +161,7 @@ def main() -> int:
         if (prev_ips_v4 or prev_ips_v6) and (now - last_success_ts) <= RETENTION_SECONDS:
             resolved_ipv4.update(prev_ips_v4)
             resolved_ipv6.update(prev_ips_v6)
+            amnezia_domain_ips[domain] = set(prev_ips_v4) | set(prev_ips_v6)
             next_state_domains[domain] = {
                 "ips_v4": _sorted_ip_entries(set(prev_ips_v4)),
                 "ips_v6": _sorted_ip_entries(set(prev_ips_v6)),
@@ -184,7 +190,7 @@ def main() -> int:
     _write_lines(OUTPUT_WG, [f"AllowedIPs = {', '.join(wg_entries)}"])
 
     _write_lines(OUTPUT_SS, merged_ipv4)
-    _write_amnezia_sites(OUTPUT_AMNEZIA_SITES, domains)
+    _write_amnezia_sites(OUTPUT_AMNEZIA_SITES, amnezia_domain_ips)
 
     _save_state({"domains": next_state_domains})
 
