@@ -2,13 +2,13 @@
   "domains": {
     "abacus.ai": {
       "ips_v4": [
-        "13.227.87.26",
-        "13.227.87.80",
-        "13.227.87.90",
-        "13.227.87.96"
+        "13.35.78.18",
+        "13.35.78.48",
+        "13.35.78.54",
+        "13.35.78.57"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "amazon.com": {
       "ips_v4": [
@@ -17,26 +17,26 @@
         "98.87.170.74"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "amnezia.org": {
       "ips_v4": [
-        "13.225.47.38",
-        "13.225.47.41",
-        "13.225.47.95",
-        "13.225.47.100"
+        "18.67.65.55",
+        "18.67.65.75",
+        "18.67.65.111",
+        "18.67.65.119"
       ],
       "ips_v6": [
-        "2600:9000:21d4:3c00:c:98f:3840:93a1",
-        "2600:9000:21d4:4a00:c:98f:3840:93a1",
-        "2600:9000:21d4:7c00:c:98f:3840:93a1",
-        "2600:9000:21d4:8400:c:98f:3840:93a1",
-        "2600:9000:21d4:a400:c:98f:3840:93a1",
-        "2600:9000:21d4:b400:c:98f:3840:93a1",
-        "2600:9000:21d4:ca00:c:98f:3840:93a1",
-        "2600:9000:21d4:fa00:c:98f:3840:93a1"
+        "2600:9000:2269:a00:c:98f:3840:93a1",
+        "2600:9000:2269:e00:c:98f:3840:93a1",
+        "2600:9000:2269:4000:c:98f:3840:93a1",
+        "2600:9000:2269:6400:c:98f:3840:93a1",
+        "2600:9000:2269:8a00:c:98f:3840:93a1",
+        "2600:9000:2269:b400:c:98f:3840:93a1",
+        "2600:9000:2269:d600:c:98f:3840:93a1",
+        "2600:9000:2269:fc00:c:98f:3840:93a1"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "anthropic.com": {
       "ips_v4": [
@@ -45,14 +45,14 @@
       "ips_v6": [
         "2607:6bc0::10"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "apple-cloudkit.com": {
       "ips_v4": [
         "17.254.0.91"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "apple.com": {
       "ips_v4": [
@@ -61,7 +61,7 @@
       "ips_v6": [
         "2620:149:af0::10"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "auth0.com": {
       "ips_v4": [
@@ -72,7 +72,7 @@
         "2606:4700:4403::ac40:96ee",
         "2a06:98c1:3101::6812:2512"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "babia.to": {
       "ips_v4": [
@@ -85,7 +85,7 @@
         "2606:4700:20::681a:f88",
         "2606:4700:20::ac43:497d"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "bandsintown.com": {
       "ips_v4": [
@@ -94,14 +94,14 @@
         "98.95.12.114"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "bestchange.net": {
       "ips_v4": [
         "188.165.25.6"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "bestchange.ru": {
       "ips_v4": [
@@ -109,20 +109,20 @@
         "172.66.145.174"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "browser-intake-datadoghq.com": {
       "ips_v4": [
-        "3.233.158.24",
-        "3.233.158.25",
-        "3.233.158.26"
+        "3.233.158.111",
+        "3.233.158.112",
+        "3.233.158.114"
       ],
       "ips_v6": [
         "2600:1f18:24e6:b900:2d16:a724:7ca3:5c63",
         "2600:1f18:24e6:b901:72e3:1bfe:b271:96b2",
         "2600:1f18:24e6:b902:a46c:a4a6:87fe:c14c"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "chatgpt.com": {
       "ips_v4": [
@@ -133,7 +133,7 @@
         "2a06:98c1:3100::6812:202f",
         "2a06:98c1:310b::ac40:9bd1"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "claude.com": {
       "ips_v4": [
@@ -142,7 +142,7 @@
       "ips_v6": [
         "2607:6bc0::10"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "cloudflare.com": {
       "ips_v4": [
@@ -153,14 +153,14 @@
         "2606:4700::6810:84e5",
         "2606:4700::6810:85e5"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "comments.app": {
       "ips_v4": [
         "149.154.164.13"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "contest.com": {
       "ips_v4": [
@@ -170,7 +170,7 @@
         "2001:67c:4e8:1033:3:0:463:337",
         "2001:67c:4e8:1033:6:0:463:637"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "contest.dev": {
       "ips_v4": [
@@ -180,7 +180,7 @@
         "2001:67c:4e8:1033:3:0:463:337",
         "2001:67c:4e8:1033:6:0:463:637"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "deepl.com": {
       "ips_v4": [
@@ -191,7 +191,7 @@
         "2606:4700:440b::6812:247a",
         "2a06:98c1:3108::ac40:9786"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "dell.com": {
       "ips_v4": [
@@ -199,7 +199,7 @@
         "143.166.136.12"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "elementor.com": {
       "ips_v4": [
@@ -210,14 +210,14 @@
         "2606:4700::6812:b278",
         "2606:4700::6812:b378"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "elevenlabs.io": {
       "ips_v4": [
         "34.54.252.193"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "envato.com": {
       "ips_v4": [
@@ -225,66 +225,66 @@
         "104.18.208.202"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "facebook.com": {
       "ips_v4": [
-        "57.144.174.1"
+        "157.240.254.35"
       ],
       "ips_v6": [
-        "2a03:2880:f364:1:face:b00c:0:25de"
+        "2a03:2880:f175:181:face:b00c:0:25de"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "fb.com": {
       "ips_v4": [
         "57.144.174.1"
       ],
       "ips_v6": [
-        "2a03:2880:f36d:1:face:b00c:0:25de"
+        "2a03:2880:f175:181:face:b00c:0:25de"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "fb.me": {
       "ips_v4": [
-        "57.144.174.1"
+        "157.240.254.35"
       ],
       "ips_v6": [
-        "2a03:2880:f364:1:face:b00c:0:25de"
+        "2a03:2880:f175:181:face:b00c:0:25de"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "fbcdn.net": {
       "ips_v4": [
         "57.144.174.1"
       ],
       "ips_v6": [
-        "2a03:2880:f357:1:face:b00c:0:25de"
+        "2a03:2880:f366:1:face:b00c:0:25de"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "fbsbx.com": {
       "ips_v4": [
-        "57.144.200.1"
+        "57.144.204.1"
       ],
       "ips_v6": [
-        "2a03:2880:f357:1:face:b00c:0:25de"
+        "2a03:2880:f31d:1:face:b00c:0:25de"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "featureassets.org": {
       "ips_v4": [
         "34.128.128.0"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "featuregates.org": {
       "ips_v4": [
         "34.128.128.0"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "fragment.com": {
       "ips_v4": [
@@ -295,17 +295,17 @@
         "2606:4700:10::6814:1acb",
         "2606:4700:10::ac42:aa18"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "ftx.com": {
       "ips_v4": [
-        "3.170.185.20",
-        "3.170.185.46",
-        "3.170.185.94",
-        "3.170.185.118"
+        "52.85.193.79",
+        "52.85.193.94",
+        "52.85.193.96",
+        "52.85.193.120"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "ghe.com": {
       "ips_v4": [
@@ -317,14 +317,14 @@
         "140.82.114.4"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "github.com": {
       "ips_v4": [
         "140.82.114.3"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "github.io": {
       "ips_v4": [
@@ -334,14 +334,14 @@
         "185.199.111.153"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "githubcloudusercontent.com": {
       "ips_v4": [
-        "140.82.114.17"
+        "140.82.112.17"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "githubcopilot.com": {
       "ips_v4": [
@@ -353,55 +353,79 @@
         "140.82.114.18"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "gl-inet.com": {
       "ips_v4": [
         "3.0.226.225"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "godaddy.com": {
       "ips_v4": [
         "160.153.0.1"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "google.com": {
       "ips_v4": [
-        "142.251.41.78"
+        "142.251.111.100",
+        "142.251.111.101",
+        "142.251.111.102",
+        "142.251.111.113",
+        "142.251.111.138",
+        "142.251.111.139"
       ],
       "ips_v6": [
-        "2607:f8b0:4009:81f::200e"
+        "2607:f8b0:4004:c21::64",
+        "2607:f8b0:4004:c21::65",
+        "2607:f8b0:4004:c21::66",
+        "2607:f8b0:4004:c21::8a"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "googleapis.com": {
       "ips_v4": [
-        "142.250.177.228"
+        "142.250.31.99",
+        "142.250.31.103",
+        "142.250.31.104",
+        "142.250.31.105",
+        "142.250.31.106",
+        "142.250.31.147"
       ],
       "ips_v6": [
-        "2607:f8b0:4009:80e::2004"
+        "2607:f8b0:4004:c1b::63",
+        "2607:f8b0:4004:c1b::67",
+        "2607:f8b0:4004:c1b::6a",
+        "2607:f8b0:4004:c1b::93"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "googlevideo.com": {
       "ips_v4": [
-        "142.250.189.132"
+        "64.233.180.99",
+        "64.233.180.103",
+        "64.233.180.104",
+        "64.233.180.105",
+        "64.233.180.106",
+        "64.233.180.147"
       ],
       "ips_v6": [
-        "2607:f8b0:4009:81c::2004"
+        "2607:f8b0:4004:c23::63",
+        "2607:f8b0:4004:c23::67",
+        "2607:f8b0:4004:c23::68",
+        "2607:f8b0:4004:c23::93"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "graph.org": {
       "ips_v4": [
         "149.154.164.13"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "grok.com": {
       "ips_v4": [
@@ -412,23 +436,25 @@
         "2606:4700::6812:1cea",
         "2606:4700::6812:1dea"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "gstatic.com": {
       "ips_v4": [
-        "142.251.215.131"
+        "172.253.115.94",
+        "172.253.115.120"
       ],
       "ips_v6": [
-        "2607:f8b0:4009:80e::2003"
+        "2607:f8b0:4004:c1b::5e",
+        "2607:f8b0:4004:c1b::78"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "hdrezka.fans": {
       "ips_v4": [
         "185.115.33.204"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "hestiacp.com": {
       "ips_v4": [
@@ -441,7 +467,7 @@
         "2606:4700:20::681a:bed",
         "2606:4700:20::ac43:48b7"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "hetzner.com": {
       "ips_v4": [
@@ -450,7 +476,7 @@
       "ips_v6": [
         "2a01:4f8:0:1::7:4"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "icloud.com": {
       "ips_v4": [
@@ -459,16 +485,16 @@
       "ips_v6": [
         "2620:149:af0::10"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "ig.me": {
       "ips_v4": [
-        "57.144.218.34"
+        "157.240.254.174"
       ],
       "ips_v6": [
-        "2a03:2880:f36d:22:face:b00c:0:4420"
+        "2a03:2880:f37a:22:face:b00c:0:4420"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "ikea.com": {
       "ips_v4": [
@@ -479,69 +505,69 @@
         "2606:4700::6812:cad",
         "2606:4700::6812:dad"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "imgix.net": {
       "ips_v4": [
         "35.208.57.113"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "instagr.am": {
       "ips_v4": [
-        "57.144.218.34"
+        "157.240.254.174"
       ],
       "ips_v6": [
-        "2a03:2880:f36d:22:face:b00c:0:4420"
+        "2a03:2880:f275:1e9:face:b00c:0:4420"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "instagram.com": {
       "ips_v4": [
-        "57.144.174.34"
+        "157.240.254.174"
       ],
       "ips_v6": [
-        "2a03:2880:f36d:22:face:b00c:0:4420"
+        "2a03:2880:f366:22:face:b00c:0:4420"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "intel.com": {
       "ips_v4": [
         "13.91.95.74"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "intercom.com": {
       "ips_v4": [
-        "3.167.152.36",
-        "3.167.152.37",
-        "3.167.152.66",
-        "3.167.152.102"
+        "3.167.112.9",
+        "3.167.112.16",
+        "3.167.112.52",
+        "3.167.112.90"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "intercom.io": {
       "ips_v4": [
-        "3.167.152.36",
-        "3.167.152.37",
-        "3.167.152.66",
-        "3.167.152.102"
+        "3.167.112.9",
+        "3.167.112.16",
+        "3.167.112.52",
+        "3.167.112.90"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "intercomcdn.com": {
       "ips_v4": [
-        "13.32.205.61",
-        "13.32.205.68",
-        "13.32.205.78",
-        "13.32.205.104"
+        "13.226.238.40",
+        "13.226.238.87",
+        "13.226.238.116",
+        "13.226.238.117"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "kinozal.tv": {
       "ips_v4": [
@@ -552,17 +578,17 @@
         "2606:4700:3037::6815:59a1",
         "2606:4700:3037::ac43:bdf3"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "landr.com": {
       "ips_v4": [
-        "3.167.163.25",
-        "3.167.163.35",
-        "3.167.163.52",
-        "3.167.163.68"
+        "3.170.3.65",
+        "3.170.3.116",
+        "3.170.3.117",
+        "3.170.3.121"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "launchdarkly.com": {
       "ips_v4": [
@@ -570,16 +596,16 @@
         "15.197.167.90"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "m.me": {
       "ips_v4": [
-        "57.144.174.141"
+        "57.144.74.141"
       ],
       "ips_v6": [
-        "2a03:2880:f36d:8d:face:b00c:0:2"
+        "2a03:2880:f37a:8d:face:b00c:0:2"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "marzban.click": {
       "ips_v4": [
@@ -590,50 +616,50 @@
         "2606:4700:3032::6815:28fc",
         "2606:4700:3032::ac43:9e93"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "messenger.com": {
       "ips_v4": [
-        "57.144.218.141"
+        "157.240.254.12"
       ],
       "ips_v6": [
-        "2a03:2880:f36d:8d:face:b00c:0:2"
+        "2a03:2880:f082:10d:face:b00c:0:2"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "meta.ai": {
       "ips_v4": [
-        "57.144.200.141"
+        "57.144.244.141"
       ],
       "ips_v6": [
-        "2a03:2880:f364:8d:face:b00c:0:2"
+        "2a03:2880:f082:10d:face:b00c:0:2"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "meta.com": {
       "ips_v4": [
-        "57.144.200.141"
+        "157.240.254.12"
       ],
       "ips_v6": [
-        "2a03:2880:f36d:8d:face:b00c:0:2"
+        "2a03:2880:f082:10d:face:b00c:0:2"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "mmg.whatsapp.net": {
       "ips_v4": [
-        "57.144.201.32"
+        "157.240.254.60"
       ],
       "ips_v6": [
-        "2a03:2880:f364:120:face:b00c:0:167"
+        "2a03:2880:f275:1c7:face:b00c:0:167"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "mzstatic.com": {
       "ips_v4": [
         "17.253.142.4"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "n8n.cloud": {
       "ips_v4": [
@@ -646,7 +672,7 @@
         "2606:4700:20::681a:d0d",
         "2606:4700:20::ac43:48b9"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "n8n.io": {
       "ips_v4": [
@@ -659,7 +685,7 @@
         "2606:4700:20::681a:dbb",
         "2606:4700:20::ac43:4466"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "nicegram.app": {
       "ips_v4": [
@@ -672,7 +698,7 @@
         "2606:4700:20::681a:796",
         "2606:4700:20::ac43:4911"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "nnmclub.to": {
       "ips_v4": [
@@ -683,7 +709,7 @@
         "2606:4700:3035::6815:5f5d",
         "2606:4700:3037::ac43:9014"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "oaistatic.com": {
       "ips_v4": [
@@ -694,7 +720,7 @@
         "2606:4700:440c::6812:299e",
         "2a06:98c1:3104::ac40:9262"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "openai.com": {
       "ips_v4": [
@@ -702,14 +728,14 @@
         "172.64.154.211"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "openclaw.ai": {
       "ips_v4": [
         "216.150.1.1"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "openwrt.org": {
       "ips_v4": [
@@ -718,7 +744,7 @@
       "ips_v6": [
         "2a03:b0c0:3:d0::1a51:c001"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "output.com": {
       "ips_v4": [
@@ -729,7 +755,7 @@
         "2606:4700::6812:1eb7",
         "2606:4700::6812:1fb7"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "paypal.com": {
       "ips_v4": [
@@ -738,7 +764,7 @@
         "162.159.141.96"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "playstation.com": {
       "ips_v4": [
@@ -748,44 +774,44 @@
         "54.176.21.103"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "pps.whatsapp.net": {
       "ips_v4": [
-        "57.144.201.32"
+        "157.240.254.60"
       ],
       "ips_v6": [
-        "2a03:2880:f357:120:face:b00c:0:167"
+        "2a03:2880:f37a:120:face:b00c:0:167"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "prodregistryv2.org": {
       "ips_v4": [
         "34.128.128.0"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "quiz.directory": {
       "ips_v4": [
         "149.154.164.13"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "retool.com": {
       "ips_v4": [
         "76.76.21.21"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "rezka.ag": {
       "ips_v4": [
         "82.221.104.145"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "rutor.org": {
       "ips_v4": [
@@ -796,7 +822,7 @@
         "2606:4700:3032::6815:cf3",
         "2606:4700:3036::ac43:99f2"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "rutracker.org": {
       "ips_v4": [
@@ -807,7 +833,7 @@
         "2606:4700:3031::6815:2027",
         "2606:4700:3034::ac43:b6c4"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "rutracker.wiki": {
       "ips_v4": [
@@ -818,14 +844,14 @@
         "2606:4700:3035::ac43:800d",
         "2606:4700:3037::6815:197"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "sentry.io": {
       "ips_v4": [
         "35.186.247.156"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "sony.com": {
       "ips_v4": [
@@ -833,7 +859,7 @@
         "52.6.127.76"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "speedtest.net": {
       "ips_v4": [
@@ -848,7 +874,7 @@
         "2a04:4e42:400::731",
         "2a04:4e42:600::731"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "spotify.com": {
       "ips_v4": [
@@ -857,30 +883,30 @@
       "ips_v6": [
         "2600:1901:1:7c5::"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "static.whatsapp.net": {
       "ips_v4": [
-        "57.144.219.32"
+        "57.144.245.32"
       ],
       "ips_v6": [
-        "2a03:2880:f364:120:face:b00c:0:167"
+        "2a03:2880:f275:1c7:face:b00c:0:167"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "statsig.com": {
       "ips_v4": [
         "34.128.128.0"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "statsigapi.net": {
       "ips_v4": [
         "34.128.128.0"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "stripe.com": {
       "ips_v4": [
@@ -889,14 +915,14 @@
         "54.162.8.126"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "supermicro.com": {
       "ips_v4": [
         "207.212.57.124"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "t.me": {
       "ips_v4": [
@@ -905,7 +931,7 @@
       "ips_v6": [
         "2001:67c:4e8:f004::9"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "tangem.com": {
       "ips_v4": [
@@ -916,28 +942,28 @@
         "2606:4700::6812:682",
         "2606:4700::6812:782"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "tdesktop.com": {
       "ips_v4": [
         "188.166.3.205"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telega.one": {
       "ips_v4": [
         "95.161.64.100"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegra.ph": {
       "ips_v4": [
         "149.154.164.13"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.asia": {
       "ips_v4": [
@@ -945,45 +971,46 @@
         "76.223.54.146"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.biz": {
       "ips_v4": [
-        "172.64.80.1"
+        "104.21.68.233",
+        "172.67.199.133"
       ],
       "ips_v6": [
         "2606:4700:3035::6815:44e9",
         "2606:4700:3037::ac43:c785"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.cn": {
       "ips_v4": [
         "67.209.187.93"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.co": {
       "ips_v4": [
         "79.170.40.4"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.com": {
       "ips_v4": [
         "146.75.38.62"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.de": {
       "ips_v4": [
         "49.13.220.144"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.dev": {
       "ips_v4": [
@@ -991,14 +1018,14 @@
         "76.223.54.146"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.dog": {
       "ips_v4": [
         "149.154.167.99"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.fr": {
       "ips_v4": [
@@ -1009,7 +1036,7 @@
         "2606:4700:3030::6815:4440",
         "2606:4700:3032::ac43:bf25"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.info": {
       "ips_v4": [
@@ -1018,7 +1045,7 @@
       "ips_v6": [
         "2a0b:7280:200:0:4cd:c6ff:fe00:dc5"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.io": {
       "ips_v4": [
@@ -1026,14 +1053,14 @@
         "52.33.207.7"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.jp": {
       "ips_v4": [
         "3.33.224.147"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.me": {
       "ips_v4": [
@@ -1042,7 +1069,7 @@
       "ips_v6": [
         "2001:67c:4e8:f004::9"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.org": {
       "ips_v4": [
@@ -1051,21 +1078,21 @@
       "ips_v6": [
         "2001:67c:4e8:f004::9"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.ru": {
       "ips_v4": [
         "62.122.170.171"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.services": {
       "ips_v4": [
         "95.216.186.40"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.solutions": {
       "ips_v4": [
@@ -1073,21 +1100,21 @@
         "76.223.105.230"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.space": {
       "ips_v4": [
         "149.154.167.99"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.team": {
       "ips_v4": [
         "45.130.41.123"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.tech": {
       "ips_v4": [
@@ -1095,7 +1122,7 @@
         "52.40.42.113"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.us": {
       "ips_v4": [
@@ -1104,7 +1131,7 @@
       "ips_v6": [
         "2604:2dc0:200:2733::"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegram.xyz": {
       "ips_v4": [
@@ -1112,7 +1139,7 @@
         "52.40.42.113"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telegramapp.org": {
       "ips_v4": [
@@ -1123,28 +1150,28 @@
         "2606:4700:3034::6815:4225",
         "2606:4700:3034::ac43:9bda"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "telesco.pe": {
       "ips_v4": [
         "149.154.167.99"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "tg.dev": {
       "ips_v4": [
         "149.154.167.99"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "tg.org": {
       "ips_v4": [
         "104.196.2.43"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "tgram.org": {
       "ips_v4": [
@@ -1152,21 +1179,21 @@
         "76.223.54.146"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "torg.org": {
       "ips_v4": [
         "70.120.32.58"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "tx.me": {
       "ips_v4": [
         "95.161.64.99"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "ubnt.com": {
       "ips_v4": [
@@ -1175,17 +1202,17 @@
         "100.23.145.58"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "uizard.io": {
       "ips_v4": [
-        "13.32.164.25",
-        "13.32.164.26",
-        "13.32.164.49",
-        "13.32.164.50"
+        "3.167.112.10",
+        "3.167.112.31",
+        "3.167.112.33",
+        "3.167.112.105"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "visualstudio.com": {
       "ips_v4": [
@@ -1196,50 +1223,50 @@
         "2603:1061:10::16",
         "2603:1061:10:1::16"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "wa.me": {
       "ips_v4": [
-        "57.144.219.32"
+        "157.240.254.60"
       ],
       "ips_v6": [
-        "2a03:2880:f364:120:face:b00c:0:167"
+        "2a03:2880:f37a:120:face:b00c:0:167"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "warp.dev": {
       "ips_v4": [
         "34.49.216.32"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "web.whatsapp.com": {
       "ips_v4": [
-        "57.144.175.32"
+        "157.240.254.60"
       ],
       "ips_v6": [
-        "2a03:2880:f36d:120:face:b00c:0:167"
+        "2a03:2880:f31d:120:face:b00c:0:167"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "whatsapp.com": {
       "ips_v4": [
-        "57.144.219.32"
+        "157.240.254.60"
       ],
       "ips_v6": [
-        "2a03:2880:f357:120:face:b00c:0:167"
+        "2a03:2880:f275:1c7:face:b00c:0:167"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "whatsapp.net": {
       "ips_v4": [
-        "57.144.219.32"
+        "157.240.254.60"
       ],
       "ips_v6": [
-        "2a03:2880:f357:120:face:b00c:0:167"
+        "2a03:2880:f275:1c7:face:b00c:0:167"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "windows.net": {
       "ips_v4": [
@@ -1250,7 +1277,7 @@
         "20.236.44.162"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "wireguard.com": {
       "ips_v4": [
@@ -1259,7 +1286,7 @@
       "ips_v6": [
         "2001:19f0:6c00:1634:925a:8ff:fe78:43ec"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "wordfence.com": {
       "ips_v4": [
@@ -1268,7 +1295,7 @@
         "184.33.32.55"
       ],
       "ips_v6": [],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "workos.com": {
       "ips_v4": [
@@ -1279,7 +1306,7 @@
         "2a06:98c1:3100::ac40:928c",
         "2a06:98c1:3106::6812:2974"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "workoscdn.com": {
       "ips_v4": [
@@ -1290,34 +1317,52 @@
         "2606:4700:4403::ac40:99a5",
         "2a06:98c1:3108::6812:225b"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "youtu.be": {
       "ips_v4": [
-        "142.250.217.110"
+        "172.253.62.91",
+        "172.253.62.93",
+        "172.253.62.136",
+        "172.253.62.190"
       ],
       "ips_v6": [
-        "2607:f8b0:4009:811::200e"
+        "2607:f8b0:4004:c1b::5b",
+        "2607:f8b0:4004:c1b::5d",
+        "2607:f8b0:4004:c1b::88",
+        "2607:f8b0:4004:c1b::be"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "youtube-nocookie.com": {
       "ips_v4": [
-        "142.250.217.110"
+        "192.178.218.91",
+        "192.178.218.93",
+        "192.178.218.136",
+        "192.178.218.190"
       ],
       "ips_v6": [
-        "2607:f8b0:4009:81e::200e"
+        "2607:f8b0:4004:c17::5b",
+        "2607:f8b0:4004:c17::5d",
+        "2607:f8b0:4004:c17::88",
+        "2607:f8b0:4004:c17::be"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     },
     "youtube.com": {
       "ips_v4": [
-        "142.251.211.46"
+        "142.251.163.91",
+        "142.251.163.93",
+        "142.251.163.136",
+        "142.251.163.190"
       ],
       "ips_v6": [
-        "2607:f8b0:4009:80c::200e"
+        "2607:f8b0:4004:c1b::5b",
+        "2607:f8b0:4004:c1b::5d",
+        "2607:f8b0:4004:c1b::88",
+        "2607:f8b0:4004:c1b::be"
       ],
-      "last_success_ts": 1775497493
+      "last_success_ts": 1775502113
     }
   }
 }
