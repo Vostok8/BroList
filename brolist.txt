@@ -4,12 +4,44 @@ icloud.com
 cdn-apple.com
 mzstatic.com
 apple-cloudkit.com
+facetime.apple.com
+account.apple.com
+appleid.cdn-apple.com
+idmsa.apple.com
+gsa.apple.com
+push.apple.com
+courier.push.apple.com
+icloud.apple.com
+icloud-content.com
+gc.apple.com
+apple-livephotoskit.com
+certs.apple.com
+crl.apple.com
+ocsp.apple.com
+ocsp2.apple.com
+valid.apple.com
 
 #AI | OPEN AI
 openai.com
 chatgpt.com
+chat.openai.com
+api.openai.com
+platform.openai.com
+auth.openai.com
 oaiusercontent.com
+files.oaiusercontent.com
 oaistatic.com
+cdn.oaistatic.com
+persistent.oaistatic.com
+status.openai.com
+browser-intake-datadoghq.com
+statsigapi.net
+events.statsigapi.net
+featuregates.org
+featureassets.org
+intercom.com
+intercom.io
+intercomcdn.com
 
 #AI | GROK
 grok.com
@@ -22,11 +54,15 @@ auth0.com
 openclaw.ai
 abacus.ai
 livekit.cloud
+waveterm.dev
+openrouter.ai
+clerk.com
 
 #CRYPTO & FINANCE
 bestchange.ru
 bestchange.net
 stripe.com
+stripe.network
 paypal.com
 tangem.com
 ftx.com
@@ -37,15 +73,32 @@ retool.com
 n8n.io
 n8n.cloud
 uizard.io
+mongodb.com
+mongodb.org
 
 #DEV | VS Code
 github.com
+api.github.com
+codeload.github.com
+gist.github.com
 githubcopilot.com
 githubusercontent.com
+raw.githubusercontent.com
+objects.githubusercontent.com
+objects-origin.githubusercontent.com
+github-releases.githubusercontent.com
+release-assets.githubusercontent.com
 ghe.com
 githubcloudusercontent.com
 githubassets.com
+ghcr.io
+pkg.github.com
+npm.pkg.github.com
 visualstudio.com
+vscode.dev
+marketplace.visualstudio.com
+gallerycdn.vsassets.io
+update.code.visualstudio.com
 azureedge.net
 windows.net
 msecnd.net
@@ -53,6 +106,7 @@ azurewebsites.net
 microsoftonline.com
 msauth.net
 msftauth.net
+default.exp-tas.com
 
 #GOOGLE(+YOUTUBE)
 youtube.com
@@ -92,6 +146,13 @@ messenger.com
 m.me
 whatsapp.net
 whatsapp.com
+web.whatsapp.com
+static.whatsapp.net
+mmg.whatsapp.net
+pps.whatsapp.net
+signal.whatsapp.net
+scontent.whatsapp.net
+whatsapp.com.edgekey.net
 wa.me
 meta.com
 meta.ai
@@ -99,12 +160,18 @@ meta.net
 whatsapp-cdn.net
 whatsapp.biz
 edgekey.net
+graph.facebook.com
+lookaside.facebook.com
 
 #MEDIA
 rezka.ag
 hdrezka.ac
 hdrezka.fans
 kinozal.tv
+
+#GAMES
+fantasyflightgames.com
+asmodee.net
 
 #MUSIC & AUDIO
 spotify.com
@@ -119,6 +186,10 @@ tg.dev
 tg.org
 tx.me
 teleg.xyz
+api.telegram.org
+web.telegram.org
+desktop.telegram.org
+core.telegram.org
 telegram.ai
 telegram.asia
 telegram.biz
@@ -163,6 +234,7 @@ fragment.com
 graph.org
 quiz.directory
 tdesktop.com
+updates.tdesktop.com
 telega.one
 telegram-cdn.org
 usercontent.dev
@@ -250,6 +322,11 @@ elementor.com
 cloudflare.com
 hestiacp.com
 openlitespeed.org
+startpack.ru
+
+#SECURITY
+sophos.com
+fortiguard.com
 
 #HARDWARE
 intel.com
@@ -259,19 +336,12 @@ ubnt.com
 
 #OTHER
 statsig.com
-statsigapi.net
 prodregistryv2.org
-featureassets.org
-featuregates.org
-intercom.com
-intercom.io
-intercomcdn.com
 sentry.io
 workos.com
 workoscdn.com
 imgix.net
 launchdarkly.com
-browser-intake-datadoghq.com
 playstation.com
 sony.com
 deepl.com
