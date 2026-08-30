@@ -97,7 +97,8 @@ def _parse_input() -> tuple[set[str], set[str], set[str]]:
     static_ipv4: set[str] = set()
     static_ipv6: set[str] = set()
 
-    for raw_line in INPUT_FILE.read_text(encoding="utf-8").splitlines():
+    lines = INPUT_FILE.read_text(encoding="utf-8").splitlines()
+    for line_number, raw_line in enumerate(lines, start=1):
         line = raw_line.split("#", 1)[0].strip()
         if not line:
             continue
@@ -113,7 +114,7 @@ def _parse_input() -> tuple[set[str], set[str], set[str]]:
             pass
 
         try:
-            net = ipaddress.ip_network(line, strict=False)
+            net = ipaddress.ip_network(line, strict=True)
             if net.version == 4:
                 static_ipv4.add(str(net))
             else:
@@ -125,6 +126,9 @@ def _parse_input() -> tuple[set[str], set[str], set[str]]:
         domain = line.lower().rstrip(".")
         if DOMAIN_RE.fullmatch(domain):
             domains.add(domain)
+            continue
+
+        raise ValueError(f"Invalid entry in {INPUT_FILE}:{line_number}: {line!r}")
 
     return domains, static_ipv4, static_ipv6
 

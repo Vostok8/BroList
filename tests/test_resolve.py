@@ -1,5 +1,6 @@
 import importlib.util
 import socket
+import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -46,6 +47,30 @@ class GlobalAddressTests(unittest.TestCase):
             resolve._resolve_records("example.com"),
             ({"8.8.8.8"}, {"2606:4700:4700::1111"}),
         )
+
+
+class InputValidationTests(unittest.TestCase):
+    def test_rejects_noncanonical_cidr_with_line_number(self):
+        with tempfile.TemporaryDirectory() as directory:
+            input_file = Path(directory) / "brolist.txt"
+            input_file.write_text("example.com\n91.108.8.0/20\n", encoding="utf-8")
+
+            with patch.object(resolve, "INPUT_FILE", input_file):
+                error = r"brolist\.txt:2: '91\.108\.8\.0/20'"
+                with self.assertRaisesRegex(ValueError, error):
+                    resolve._parse_input()
+
+    def test_accepts_canonical_cidr(self):
+        with tempfile.TemporaryDirectory() as directory:
+            input_file = Path(directory) / "brolist.txt"
+            input_file.write_text("example.com\n91.108.0.0/20\n", encoding="utf-8")
+
+            with patch.object(resolve, "INPUT_FILE", input_file):
+                domains, static_ipv4, static_ipv6 = resolve._parse_input()
+
+            self.assertEqual(domains, {"example.com"})
+            self.assertEqual(static_ipv4, {"91.108.0.0/20"})
+            self.assertEqual(static_ipv6, set())
 
 
 if __name__ == "__main__":
