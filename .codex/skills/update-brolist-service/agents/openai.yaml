@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update BroList Service"
+  short_description: "Research and add services to BroList"
+  default_prompt: "Use $update-brolist-service to research and add a service to BroList."
