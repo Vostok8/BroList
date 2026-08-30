@@ -36,6 +36,6 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ips.txt ips_v4.txt ips_v6.txt wireguard_allowed_ips.txt shadowsocks_ips.txt state/resolve_state.json
+          git add ips.txt ips_v4.txt ips_v6.txt wireguard_allowed_ips.txt shadowsocks_ips.txt amnezia_sites.json state/resolve_state.json
           git commit -m "chore: refresh ip lists ($(date -u +'%Y-%m-%d %H:%M UTC'))"
           git push

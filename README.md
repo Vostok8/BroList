@@ -24,7 +24,7 @@
 - `ips_v6.txt` — список только IPv6/CIDR.
 - `wireguard_allowed_ips.txt` — готовая строка `AllowedIPs = ...`.
 - `shadowsocks_ips.txt` — список IPv4/CIDR для ручного использования.
-- `amnezia_sites.json` — список доменов в формате JSON (`[{ "hostname": "example.com" }]`).
+- `amnezia_sites.json` — разрешённые адреса доменов в формате JSON (`[{ "hostname": "example.com", "ip": "1.1.1.1" }]`).
 - `state/resolve_state.json` — состояние последнего успешного резолва для политики 24 часов.
 
 ## Локальный запуск

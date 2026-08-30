@@ -1,4 +1,5 @@
 import importlib.util
+import json
 import socket
 import tempfile
 import unittest
@@ -71,6 +72,28 @@ class InputValidationTests(unittest.TestCase):
             self.assertEqual(domains, {"example.com"})
             self.assertEqual(static_ipv4, {"91.108.0.0/20"})
             self.assertEqual(static_ipv6, set())
+
+
+class AmneziaOutputTests(unittest.TestCase):
+    def test_writes_hostname_and_ip_pairs_in_stable_order(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output_file = Path(directory) / "amnezia_sites.json"
+            resolve._write_amnezia_sites(
+                output_file,
+                {
+                    "example.org": {"2606:4700:4700::1111"},
+                    "example.com": {"8.8.8.8", "1.1.1.1"},
+                },
+            )
+
+            self.assertEqual(
+                json.loads(output_file.read_text(encoding="utf-8")),
+                [
+                    {"hostname": "example.com", "ip": "1.1.1.1"},
+                    {"hostname": "example.com", "ip": "8.8.8.8"},
+                    {"hostname": "example.org", "ip": "2606:4700:4700::1111"},
+                ],
+            )
 
 
 if __name__ == "__main__":
