@@ -32,6 +32,31 @@ def _sorted_ip_entries(entries: set[str]) -> list[str]:
     return sorted(entries, key=key)
 
 
+def _global_addresses(entries: set[str] | list[str]) -> set[str]:
+    global_addresses: set[str] = set()
+    for value in entries:
+        try:
+            address = ipaddress.ip_address(value)
+        except ValueError:
+            continue
+        if _is_public_unicast(address):
+            global_addresses.add(str(address))
+    return global_addresses
+
+
+def _is_public_unicast(address: ipaddress.IPv4Address | ipaddress.IPv6Address) -> bool:
+    return address.is_global and not any(
+        (
+            address.is_loopback,
+            address.is_private,
+            address.is_link_local,
+            address.is_multicast,
+            address.is_reserved,
+            address.is_unspecified,
+        )
+    )
+
+
 def _write_lines(path: Path, lines: list[str]) -> None:
     content = "\n".join(lines).rstrip("\n") + "\n"
     path.write_text(content, encoding="utf-8")
@@ -111,8 +136,11 @@ def _resolve_records(domain: str) -> tuple[set[str], set[str]]:
         for item in socket.getaddrinfo(domain, None, socket.AF_UNSPEC, socket.SOCK_STREAM):
             sockaddr = item[4]
             if sockaddr and sockaddr[0]:
-                ip = str(ipaddress.ip_address(sockaddr[0]))
-                if ":" in ip:
+                address = ipaddress.ip_address(sockaddr[0])
+                if not _is_public_unicast(address):
+                    continue
+                ip = str(address)
+                if address.version == 6:
                     ipv6.add(ip)
                 else:
                     ipv4.add(ip)
@@ -154,8 +182,8 @@ def main() -> int:
         if not previous:
             continue
 
-        prev_ips_v4 = previous.get("ips_v4") or previous.get("ips") or []
-        prev_ips_v6 = previous.get("ips_v6") or []
+        prev_ips_v4 = _global_addresses(previous.get("ips_v4") or previous.get("ips") or [])
+        prev_ips_v6 = _global_addresses(previous.get("ips_v6") or [])
         last_success_ts = int(previous.get("last_success_ts") or 0)
 
         if (prev_ips_v4 or prev_ips_v6) and (now - last_success_ts) <= RETENTION_SECONDS:
