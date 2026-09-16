@@ -49,7 +49,7 @@
   },
   {
     "hostname" : "account.apple.com",
-    "ip" : "17.23.96.2"
+    "ip" : "17.157.64.84"
   },
   {
     "hostname" : "account.ui.com",
@@ -69,11 +69,11 @@
   },
   {
     "hostname" : "account.ui.com",
-    "ip" : "2600:9000:28a0:200:17:ebad:700:93a1"
+    "ip" : "2600:9000:28a0:0:17:ebad:700:93a1"
   },
   {
     "hostname" : "account.ui.com",
-    "ip" : "2600:9000:28a0:4800:17:ebad:700:93a1"
+    "ip" : "2600:9000:28a0:2600:17:ebad:700:93a1"
   },
   {
     "hostname" : "account.ui.com",
@@ -81,27 +81,27 @@
   },
   {
     "hostname" : "account.ui.com",
-    "ip" : "2600:9000:28a0:5e00:17:ebad:700:93a1"
+    "ip" : "2600:9000:28a0:7c00:17:ebad:700:93a1"
   },
   {
     "hostname" : "account.ui.com",
-    "ip" : "2600:9000:28a0:6400:17:ebad:700:93a1"
+    "ip" : "2600:9000:28a0:8400:17:ebad:700:93a1"
   },
   {
     "hostname" : "account.ui.com",
-    "ip" : "2600:9000:28a0:bc00:17:ebad:700:93a1"
+    "ip" : "2600:9000:28a0:d200:17:ebad:700:93a1"
   },
   {
     "hostname" : "account.ui.com",
-    "ip" : "2600:9000:28a0:ca00:17:ebad:700:93a1"
+    "ip" : "2600:9000:28a0:d800:17:ebad:700:93a1"
   },
   {
     "hostname" : "account.ui.com",
-    "ip" : "2600:9000:28a0:f000:17:ebad:700:93a1"
+    "ip" : "2600:9000:28a0:ec00:17:ebad:700:93a1"
   },
   {
     "hostname" : "accounts.nike.com",
-    "ip" : "23.34.124.96"
+    "ip" : "23.39.184.104"
   },
   {
     "hostname" : "accounts.nike.com",
@@ -113,11 +113,11 @@
   },
   {
     "hostname" : "accounts.spotify.com",
-    "ip" : "146.75.31.42"
+    "ip" : "146.75.39.42"
   },
   {
     "hostname" : "accounts.spotify.com",
-    "ip" : "2a04:4e42:79::810"
+    "ip" : "2a04:4e42:77::810"
   },
   {
     "hostname" : "accounts.supercell.com",
@@ -177,23 +177,19 @@
   },
   {
     "hostname" : "amnezia.org",
-    "ip" : "2600:9000:2269:2400:c:98f:3840:93a1"
+    "ip" : "2600:9000:2269:2200:c:98f:3840:93a1"
   },
   {
     "hostname" : "amnezia.org",
-    "ip" : "2600:9000:2269:5800:c:98f:3840:93a1"
+    "ip" : "2600:9000:2269:6400:c:98f:3840:93a1"
   },
   {
     "hostname" : "amnezia.org",
-    "ip" : "2600:9000:2269:7000:c:98f:3840:93a1"
+    "ip" : "2600:9000:2269:6a00:c:98f:3840:93a1"
   },
   {
     "hostname" : "amnezia.org",
-    "ip" : "2600:9000:2269:7200:c:98f:3840:93a1"
-  },
-  {
-    "hostname" : "amnezia.org",
-    "ip" : "2600:9000:2269:8800:c:98f:3840:93a1"
+    "ip" : "2600:9000:2269:7400:c:98f:3840:93a1"
   },
   {
     "hostname" : "amnezia.org",
@@ -201,11 +197,15 @@
   },
   {
     "hostname" : "amnezia.org",
-    "ip" : "2600:9000:2269:b200:c:98f:3840:93a1"
+    "ip" : "2600:9000:2269:a200:c:98f:3840:93a1"
   },
   {
     "hostname" : "amnezia.org",
-    "ip" : "2600:9000:2269:c000:c:98f:3840:93a1"
+    "ip" : "2600:9000:2269:ce00:c:98f:3840:93a1"
+  },
+  {
+    "hostname" : "amnezia.org",
+    "ip" : "2600:9000:2269:d000:c:98f:3840:93a1"
   },
   {
     "hostname" : "anthropic.com",
@@ -237,23 +237,27 @@
   },
   {
     "hostname" : "api-v2.soundcloud.com",
-    "ip" : "13.225.196.23"
+    "ip" : "3.170.19.6"
   },
   {
     "hostname" : "api-v2.soundcloud.com",
-    "ip" : "13.225.196.49"
+    "ip" : "3.170.19.15"
   },
   {
     "hostname" : "api-v2.soundcloud.com",
-    "ip" : "13.225.196.66"
+    "ip" : "3.170.19.47"
   },
   {
     "hostname" : "api-v2.soundcloud.com",
-    "ip" : "13.225.196.109"
+    "ip" : "3.170.19.121"
   },
   {
     "hostname" : "api.github.com",
-    "ip" : "140.82.113.5"
+    "ip" : "140.82.112.6"
+  },
+  {
+    "hostname" : "api.nike.com",
+    "ip" : "23.212.250.8"
   },
   {
     "hostname" : "api.nike.com",
@@ -262,6 +266,30 @@
   {
     "hostname" : "api.nike.com",
     "ip" : "23.212.250.10"
+  },
+  {
+    "hostname" : "api.nike.com",
+    "ip" : "23.212.250.12"
+  },
+  {
+    "hostname" : "api.nike.com",
+    "ip" : "23.212.250.19"
+  },
+  {
+    "hostname" : "api.nike.com",
+    "ip" : "23.212.250.20"
+  },
+  {
+    "hostname" : "api.nike.com",
+    "ip" : "23.212.250.22"
+  },
+  {
+    "hostname" : "api.nike.com",
+    "ip" : "23.212.250.23"
+  },
+  {
+    "hostname" : "api.nike.com",
+    "ip" : "23.212.250.24"
   },
   {
     "hostname" : "api.openai.com",
@@ -313,19 +341,19 @@
   },
   {
     "hostname" : "appleid.cdn-apple.com",
-    "ip" : "23.15.3.131"
+    "ip" : "23.53.11.110"
   },
   {
     "hostname" : "appleid.cdn-apple.com",
-    "ip" : "23.15.3.134"
+    "ip" : "23.54.127.164"
   },
   {
     "hostname" : "appleid.cdn-apple.com",
-    "ip" : "2600:1408:ec00:15::17d7:c9"
+    "ip" : "2600:1408:a:203::170f:383"
   },
   {
     "hostname" : "appleid.cdn-apple.com",
-    "ip" : "2600:1408:ec00:15::17d7:cd"
+    "ip" : "2600:1408:a:203::170f:386"
   },
   {
     "hostname" : "apresolve.spotify.com",
@@ -377,11 +405,11 @@
   },
   {
     "hostname" : "audio-fa.scdn.co",
-    "ip" : "146.75.30.248"
+    "ip" : "146.75.38.248"
   },
   {
     "hostname" : "audio-fa.scdn.co",
-    "ip" : "2a04:4e42:79::760"
+    "ip" : "2a04:4e42:77::760"
   },
   {
     "hostname" : "audiopipe.suno.ai",
@@ -401,15 +429,15 @@
   },
   {
     "hostname" : "audiopipe.suno.ai",
-    "ip" : "2600:9000:27cb:5600:a:ff75:6e40:93a1"
+    "ip" : "2600:9000:27cb:1c00:a:ff75:6e40:93a1"
   },
   {
     "hostname" : "audiopipe.suno.ai",
-    "ip" : "2600:9000:27cb:7a00:a:ff75:6e40:93a1"
+    "ip" : "2600:9000:27cb:7000:a:ff75:6e40:93a1"
   },
   {
     "hostname" : "audiopipe.suno.ai",
-    "ip" : "2600:9000:27cb:9e00:a:ff75:6e40:93a1"
+    "ip" : "2600:9000:27cb:a400:a:ff75:6e40:93a1"
   },
   {
     "hostname" : "audiopipe.suno.ai",
@@ -417,19 +445,19 @@
   },
   {
     "hostname" : "audiopipe.suno.ai",
-    "ip" : "2600:9000:27cb:d400:a:ff75:6e40:93a1"
+    "ip" : "2600:9000:27cb:dc00:a:ff75:6e40:93a1"
   },
   {
     "hostname" : "audiopipe.suno.ai",
-    "ip" : "2600:9000:27cb:e000:a:ff75:6e40:93a1"
+    "ip" : "2600:9000:27cb:ea00:a:ff75:6e40:93a1"
   },
   {
     "hostname" : "audiopipe.suno.ai",
-    "ip" : "2600:9000:27cb:e200:a:ff75:6e40:93a1"
+    "ip" : "2600:9000:27cb:f000:a:ff75:6e40:93a1"
   },
   {
     "hostname" : "audiopipe.suno.ai",
-    "ip" : "2600:9000:27cb:f600:a:ff75:6e40:93a1"
+    "ip" : "2600:9000:27cb:fc00:a:ff75:6e40:93a1"
   },
   {
     "hostname" : "auth.openai.com",
@@ -478,6 +506,10 @@
   {
     "hostname" : "auth0.com",
     "ip" : "2a06:98c1:310b::6812:2512"
+  },
+  {
+    "hostname" : "axis.com",
+    "ip" : "195.60.68.81"
   },
   {
     "hostname" : "babia.to",
@@ -569,19 +601,19 @@
   },
   {
     "hostname" : "browser-intake-datadoghq.com",
-    "ip" : "2600:1f18:24e6:b900:633c:1d50:cbd8:2a53"
+    "ip" : "2600:1f18:24e6:b900:2d16:a724:7ca3:5c63"
   },
   {
     "hostname" : "browser-intake-datadoghq.com",
-    "ip" : "2600:1f18:24e6:b901:fbdc:7182:a89c:6101"
+    "ip" : "2600:1f18:24e6:b901:72e3:1bfe:b271:96b2"
   },
   {
     "hostname" : "browser-intake-datadoghq.com",
-    "ip" : "2600:1f18:24e6:b902:b031:28ae:e5c:782b"
+    "ip" : "2600:1f18:24e6:b902:a46c:a4a6:87fe:c14c"
   },
   {
     "hostname" : "c.static-nike.com",
-    "ip" : "146.75.30.24"
+    "ip" : "146.75.38.24"
   },
   {
     "hostname" : "c.static-nike.com",
@@ -629,51 +661,51 @@
   },
   {
     "hostname" : "cdn1.suno.ai",
-    "ip" : "3.167.99.47"
+    "ip" : "3.168.73.29"
   },
   {
     "hostname" : "cdn1.suno.ai",
-    "ip" : "3.167.99.67"
+    "ip" : "3.168.73.108"
   },
   {
     "hostname" : "cdn1.suno.ai",
-    "ip" : "3.167.99.73"
+    "ip" : "3.168.73.120"
   },
   {
     "hostname" : "cdn1.suno.ai",
-    "ip" : "3.167.99.88"
+    "ip" : "3.168.73.129"
   },
   {
     "hostname" : "cdn1.suno.ai",
-    "ip" : "2600:9000:27ce:2800:9:a3a2:37c0:93a1"
+    "ip" : "2600:9000:2801:2e00:9:a3a2:37c0:93a1"
   },
   {
     "hostname" : "cdn1.suno.ai",
-    "ip" : "2600:9000:27ce:2e00:9:a3a2:37c0:93a1"
+    "ip" : "2600:9000:2801:3a00:9:a3a2:37c0:93a1"
   },
   {
     "hostname" : "cdn1.suno.ai",
-    "ip" : "2600:9000:27ce:4000:9:a3a2:37c0:93a1"
+    "ip" : "2600:9000:2801:8000:9:a3a2:37c0:93a1"
   },
   {
     "hostname" : "cdn1.suno.ai",
-    "ip" : "2600:9000:27ce:9000:9:a3a2:37c0:93a1"
+    "ip" : "2600:9000:2801:9200:9:a3a2:37c0:93a1"
   },
   {
     "hostname" : "cdn1.suno.ai",
-    "ip" : "2600:9000:27ce:9200:9:a3a2:37c0:93a1"
+    "ip" : "2600:9000:2801:a200:9:a3a2:37c0:93a1"
   },
   {
     "hostname" : "cdn1.suno.ai",
-    "ip" : "2600:9000:27ce:a400:9:a3a2:37c0:93a1"
+    "ip" : "2600:9000:2801:ae00:9:a3a2:37c0:93a1"
   },
   {
     "hostname" : "cdn1.suno.ai",
-    "ip" : "2600:9000:27ce:aa00:9:a3a2:37c0:93a1"
+    "ip" : "2600:9000:2801:e400:9:a3a2:37c0:93a1"
   },
   {
     "hostname" : "cdn1.suno.ai",
-    "ip" : "2600:9000:27ce:e600:9:a3a2:37c0:93a1"
+    "ip" : "2600:9000:2801:ec00:9:a3a2:37c0:93a1"
   },
   {
     "hostname" : "cdn2.suno.ai",
@@ -693,51 +725,51 @@
   },
   {
     "hostname" : "cdn2.suno.ai",
-    "ip" : "2600:9000:20ea:1200:15:64f8:4200:93a1"
+    "ip" : "2600:9000:20ea:c00:15:64f8:4200:93a1"
   },
   {
     "hostname" : "cdn2.suno.ai",
-    "ip" : "2600:9000:20ea:3c00:15:64f8:4200:93a1"
+    "ip" : "2600:9000:20ea:2200:15:64f8:4200:93a1"
   },
   {
     "hostname" : "cdn2.suno.ai",
-    "ip" : "2600:9000:20ea:3e00:15:64f8:4200:93a1"
+    "ip" : "2600:9000:20ea:2600:15:64f8:4200:93a1"
   },
   {
     "hostname" : "cdn2.suno.ai",
-    "ip" : "2600:9000:20ea:5400:15:64f8:4200:93a1"
+    "ip" : "2600:9000:20ea:4a00:15:64f8:4200:93a1"
   },
   {
     "hostname" : "cdn2.suno.ai",
-    "ip" : "2600:9000:20ea:8200:15:64f8:4200:93a1"
+    "ip" : "2600:9000:20ea:ae00:15:64f8:4200:93a1"
   },
   {
     "hostname" : "cdn2.suno.ai",
-    "ip" : "2600:9000:20ea:9000:15:64f8:4200:93a1"
+    "ip" : "2600:9000:20ea:c600:15:64f8:4200:93a1"
   },
   {
     "hostname" : "cdn2.suno.ai",
-    "ip" : "2600:9000:20ea:9c00:15:64f8:4200:93a1"
+    "ip" : "2600:9000:20ea:c800:15:64f8:4200:93a1"
   },
   {
     "hostname" : "cdn2.suno.ai",
-    "ip" : "2600:9000:20ea:ce00:15:64f8:4200:93a1"
+    "ip" : "2600:9000:20ea:e600:15:64f8:4200:93a1"
   },
   {
     "hostname" : "certs.apple.com",
-    "ip" : "17.253.21.139"
+    "ip" : "17.253.21.135"
   },
   {
     "hostname" : "certs.apple.com",
-    "ip" : "17.253.21.150"
+    "ip" : "17.253.21.147"
   },
   {
     "hostname" : "certs.apple.com",
-    "ip" : "2620:149:a10:f000::140"
+    "ip" : "2620:149:a10:f000::136"
   },
   {
     "hostname" : "certs.apple.com",
-    "ip" : "2620:149:a10:f000::147"
+    "ip" : "2620:149:a10:f000::138"
   },
   {
     "hostname" : "cf-preview-media.sndcdn.com",
@@ -817,7 +849,7 @@
   },
   {
     "hostname" : "codeload.github.com",
-    "ip" : "140.82.113.9"
+    "ip" : "140.82.114.9"
   },
   {
     "hostname" : "comments.app",
@@ -889,19 +921,19 @@
   },
   {
     "hostname" : "crl.apple.com",
-    "ip" : "17.253.21.145"
+    "ip" : "17.253.21.133"
   },
   {
     "hostname" : "crl.apple.com",
-    "ip" : "17.253.21.147"
+    "ip" : "17.253.21.139"
   },
   {
     "hostname" : "crl.apple.com",
-    "ip" : "2620:149:a10:f000::135"
+    "ip" : "2620:149:a10:f000::149"
   },
   {
     "hostname" : "crl.apple.com",
-    "ip" : "2620:149:a10:f000::144"
+    "ip" : "2620:149:a10:f000::150"
   },
   {
     "hostname" : "d2lb3d8e434rsy.cloudfront.net",
@@ -921,35 +953,35 @@
   },
   {
     "hostname" : "d2lb3d8e434rsy.cloudfront.net",
-    "ip" : "2600:9000:201d:1000:5:322e:3080:93a1"
+    "ip" : "2600:9000:201d:3a00:5:322e:3080:93a1"
   },
   {
     "hostname" : "d2lb3d8e434rsy.cloudfront.net",
-    "ip" : "2600:9000:201d:2400:5:322e:3080:93a1"
+    "ip" : "2600:9000:201d:4c00:5:322e:3080:93a1"
   },
   {
     "hostname" : "d2lb3d8e434rsy.cloudfront.net",
-    "ip" : "2600:9000:201d:2a00:5:322e:3080:93a1"
+    "ip" : "2600:9000:201d:5c00:5:322e:3080:93a1"
   },
   {
     "hostname" : "d2lb3d8e434rsy.cloudfront.net",
-    "ip" : "2600:9000:201d:6600:5:322e:3080:93a1"
+    "ip" : "2600:9000:201d:a200:5:322e:3080:93a1"
   },
   {
     "hostname" : "d2lb3d8e434rsy.cloudfront.net",
-    "ip" : "2600:9000:201d:b200:5:322e:3080:93a1"
+    "ip" : "2600:9000:201d:bc00:5:322e:3080:93a1"
   },
   {
     "hostname" : "d2lb3d8e434rsy.cloudfront.net",
-    "ip" : "2600:9000:201d:d200:5:322e:3080:93a1"
+    "ip" : "2600:9000:201d:c600:5:322e:3080:93a1"
   },
   {
     "hostname" : "d2lb3d8e434rsy.cloudfront.net",
-    "ip" : "2600:9000:201d:e000:5:322e:3080:93a1"
+    "ip" : "2600:9000:201d:d400:5:322e:3080:93a1"
   },
   {
     "hostname" : "d2lb3d8e434rsy.cloudfront.net",
-    "ip" : "2600:9000:201d:fe00:5:322e:3080:93a1"
+    "ip" : "2600:9000:201d:dc00:5:322e:3080:93a1"
   },
   {
     "hostname" : "d2lwuy8qc234o3.cloudfront.net",
@@ -969,35 +1001,35 @@
   },
   {
     "hostname" : "d2lwuy8qc234o3.cloudfront.net",
-    "ip" : "2600:9000:2508:2a00:19:fa33:18c0:21"
+    "ip" : "2600:9000:2508:a00:19:fa33:18c0:21"
   },
   {
     "hostname" : "d2lwuy8qc234o3.cloudfront.net",
-    "ip" : "2600:9000:2508:6600:19:fa33:18c0:21"
+    "ip" : "2600:9000:2508:1600:19:fa33:18c0:21"
   },
   {
     "hostname" : "d2lwuy8qc234o3.cloudfront.net",
-    "ip" : "2600:9000:2508:9e00:19:fa33:18c0:21"
+    "ip" : "2600:9000:2508:4000:19:fa33:18c0:21"
   },
   {
     "hostname" : "d2lwuy8qc234o3.cloudfront.net",
-    "ip" : "2600:9000:2508:b000:19:fa33:18c0:21"
+    "ip" : "2600:9000:2508:5e00:19:fa33:18c0:21"
   },
   {
     "hostname" : "d2lwuy8qc234o3.cloudfront.net",
-    "ip" : "2600:9000:2508:b600:19:fa33:18c0:21"
+    "ip" : "2600:9000:2508:7c00:19:fa33:18c0:21"
   },
   {
     "hostname" : "d2lwuy8qc234o3.cloudfront.net",
-    "ip" : "2600:9000:2508:ce00:19:fa33:18c0:21"
+    "ip" : "2600:9000:2508:8400:19:fa33:18c0:21"
   },
   {
     "hostname" : "d2lwuy8qc234o3.cloudfront.net",
-    "ip" : "2600:9000:2508:e000:19:fa33:18c0:21"
+    "ip" : "2600:9000:2508:ba00:19:fa33:18c0:21"
   },
   {
     "hostname" : "d2lwuy8qc234o3.cloudfront.net",
-    "ip" : "2600:9000:2508:f400:19:fa33:18c0:21"
+    "ip" : "2600:9000:2508:c800:19:fa33:18c0:21"
   },
   {
     "hostname" : "dealer.spotify.com",
@@ -1081,31 +1113,31 @@
   },
   {
     "hostname" : "dl.ui.com",
-    "ip" : "2600:9000:27cb:3400:1a:81f:4740:93a1"
+    "ip" : "2600:9000:27cb:3200:1a:81f:4740:93a1"
   },
   {
     "hostname" : "dl.ui.com",
-    "ip" : "2600:9000:27cb:7400:1a:81f:4740:93a1"
+    "ip" : "2600:9000:27cb:4a00:1a:81f:4740:93a1"
   },
   {
     "hostname" : "dl.ui.com",
-    "ip" : "2600:9000:27cb:8800:1a:81f:4740:93a1"
+    "ip" : "2600:9000:27cb:6a00:1a:81f:4740:93a1"
   },
   {
     "hostname" : "dl.ui.com",
-    "ip" : "2600:9000:27cb:d000:1a:81f:4740:93a1"
+    "ip" : "2600:9000:27cb:9400:1a:81f:4740:93a1"
   },
   {
     "hostname" : "dl.ui.com",
-    "ip" : "2600:9000:27cb:e000:1a:81f:4740:93a1"
+    "ip" : "2600:9000:27cb:a600:1a:81f:4740:93a1"
   },
   {
     "hostname" : "dl.ui.com",
-    "ip" : "2600:9000:27cb:e800:1a:81f:4740:93a1"
+    "ip" : "2600:9000:27cb:ac00:1a:81f:4740:93a1"
   },
   {
     "hostname" : "dl.ui.com",
-    "ip" : "2600:9000:27cb:ec00:1a:81f:4740:93a1"
+    "ip" : "2600:9000:27cb:f200:1a:81f:4740:93a1"
   },
   {
     "hostname" : "dn3ebm5xp8ng9.cloudfront.net",
@@ -1125,15 +1157,15 @@
   },
   {
     "hostname" : "dn3ebm5xp8ng9.cloudfront.net",
-    "ip" : "2600:9000:27cb:5600:a:ff75:6e40:93a1"
+    "ip" : "2600:9000:27cb:1c00:a:ff75:6e40:93a1"
   },
   {
     "hostname" : "dn3ebm5xp8ng9.cloudfront.net",
-    "ip" : "2600:9000:27cb:7a00:a:ff75:6e40:93a1"
+    "ip" : "2600:9000:27cb:7000:a:ff75:6e40:93a1"
   },
   {
     "hostname" : "dn3ebm5xp8ng9.cloudfront.net",
-    "ip" : "2600:9000:27cb:9e00:a:ff75:6e40:93a1"
+    "ip" : "2600:9000:27cb:a400:a:ff75:6e40:93a1"
   },
   {
     "hostname" : "dn3ebm5xp8ng9.cloudfront.net",
@@ -1141,19 +1173,19 @@
   },
   {
     "hostname" : "dn3ebm5xp8ng9.cloudfront.net",
-    "ip" : "2600:9000:27cb:d400:a:ff75:6e40:93a1"
+    "ip" : "2600:9000:27cb:dc00:a:ff75:6e40:93a1"
   },
   {
     "hostname" : "dn3ebm5xp8ng9.cloudfront.net",
-    "ip" : "2600:9000:27cb:e000:a:ff75:6e40:93a1"
+    "ip" : "2600:9000:27cb:ea00:a:ff75:6e40:93a1"
   },
   {
     "hostname" : "dn3ebm5xp8ng9.cloudfront.net",
-    "ip" : "2600:9000:27cb:e200:a:ff75:6e40:93a1"
+    "ip" : "2600:9000:27cb:f000:a:ff75:6e40:93a1"
   },
   {
     "hostname" : "dn3ebm5xp8ng9.cloudfront.net",
-    "ip" : "2600:9000:27cb:f600:a:ff75:6e40:93a1"
+    "ip" : "2600:9000:27cb:fc00:a:ff75:6e40:93a1"
   },
   {
     "hostname" : "docs.rw",
@@ -1213,7 +1245,7 @@
   },
   {
     "hostname" : "facebook.com",
-    "ip" : "2a03:2880:f103:83:face:b00c:0:25de"
+    "ip" : "2a03:2880:f175:181:face:b00c:0:25de"
   },
   {
     "hostname" : "facetime.apple.com",
@@ -1225,15 +1257,11 @@
   },
   {
     "hostname" : "facetime.apple.com",
-    "ip" : "17.248.228.161"
-  },
-  {
-    "hostname" : "facetime.apple.com",
     "ip" : "17.248.228.163"
   },
   {
     "hostname" : "facetime.apple.com",
-    "ip" : "2620:149:a41:880::f"
+    "ip" : "17.248.228.167"
   },
   {
     "hostname" : "facetime.apple.com",
@@ -1245,7 +1273,11 @@
   },
   {
     "hostname" : "facetime.apple.com",
-    "ip" : "2620:149:a41:880::5:5"
+    "ip" : "2620:149:a41:880::5:3"
+  },
+  {
+    "hostname" : "facetime.apple.com",
+    "ip" : "2620:149:a41:880::5:4"
   },
   {
     "hostname" : "facetime.apple.com",
@@ -1253,7 +1285,7 @@
   },
   {
     "hostname" : "facetime.apple.com",
-    "ip" : "2620:149:a41:880::5:8"
+    "ip" : "2620:149:a41:880::5:7"
   },
   {
     "hostname" : "fantasyflightgames.com",
@@ -1277,7 +1309,7 @@
   },
   {
     "hostname" : "fb.com",
-    "ip" : "2a03:2880:f31e:1:face:b00c:0:25de"
+    "ip" : "2a03:2880:f175:181:face:b00c:0:25de"
   },
   {
     "hostname" : "fb.me",
@@ -1285,11 +1317,11 @@
   },
   {
     "hostname" : "fb.me",
-    "ip" : "2a03:2880:f103:83:face:b00c:0:25de"
+    "ip" : "2a03:2880:f381:1:face:b00c:0:25de"
   },
   {
     "hostname" : "fbcdn.net",
-    "ip" : "31.13.66.35"
+    "ip" : "157.240.254.35"
   },
   {
     "hostname" : "fbcdn.net",
@@ -1441,7 +1473,7 @@
   },
   {
     "hostname" : "ghcr.io",
-    "ip" : "140.82.114.34"
+    "ip" : "140.82.114.33"
   },
   {
     "hostname" : "ghe.com",
@@ -1469,7 +1501,7 @@
   },
   {
     "hostname" : "gist.github.com",
-    "ip" : "140.82.112.4"
+    "ip" : "140.82.114.3"
   },
   {
     "hostname" : "github-releases.githubusercontent.com",
@@ -1505,7 +1537,7 @@
   },
   {
     "hostname" : "github.com",
-    "ip" : "140.82.113.4"
+    "ip" : "140.82.114.3"
   },
   {
     "hostname" : "github.io",
@@ -1525,7 +1557,7 @@
   },
   {
     "hostname" : "githubcloudusercontent.com",
-    "ip" : "140.82.112.18"
+    "ip" : "140.82.112.17"
   },
   {
     "hostname" : "githubcopilot.com",
@@ -1573,75 +1605,71 @@
   },
   {
     "hostname" : "google.com",
-    "ip" : "172.253.122.100"
+    "ip" : "192.178.155.100"
   },
   {
     "hostname" : "google.com",
-    "ip" : "172.253.122.101"
+    "ip" : "192.178.155.101"
   },
   {
     "hostname" : "google.com",
-    "ip" : "172.253.122.102"
+    "ip" : "192.178.155.102"
   },
   {
     "hostname" : "google.com",
-    "ip" : "172.253.122.113"
+    "ip" : "192.178.155.113"
   },
   {
     "hostname" : "google.com",
-    "ip" : "172.253.122.138"
+    "ip" : "192.178.155.138"
   },
   {
     "hostname" : "google.com",
-    "ip" : "172.253.122.139"
+    "ip" : "192.178.155.139"
   },
   {
     "hostname" : "google.com",
-    "ip" : "2607:f8b0:4004:c09::65"
+    "ip" : "2607:f8b0:4004:c1d::64"
   },
   {
     "hostname" : "google.com",
-    "ip" : "2607:f8b0:4004:c09::66"
+    "ip" : "2607:f8b0:4004:c1d::65"
   },
   {
     "hostname" : "google.com",
-    "ip" : "2607:f8b0:4004:c09::71"
+    "ip" : "2607:f8b0:4004:c1d::71"
   },
   {
     "hostname" : "google.com",
-    "ip" : "2607:f8b0:4004:c09::8a"
+    "ip" : "2607:f8b0:4004:c1d::8a"
   },
   {
     "hostname" : "googleapis.com",
-    "ip" : "192.178.155.99"
+    "ip" : "142.251.16.99"
   },
   {
     "hostname" : "googleapis.com",
-    "ip" : "192.178.155.103"
+    "ip" : "142.251.16.103"
   },
   {
     "hostname" : "googleapis.com",
-    "ip" : "192.178.155.104"
+    "ip" : "142.251.16.104"
   },
   {
     "hostname" : "googleapis.com",
-    "ip" : "192.178.155.105"
+    "ip" : "142.251.16.105"
   },
   {
     "hostname" : "googleapis.com",
-    "ip" : "192.178.155.106"
+    "ip" : "142.251.16.106"
   },
   {
     "hostname" : "googleapis.com",
-    "ip" : "192.178.155.147"
+    "ip" : "142.251.16.147"
   },
   {
     "hostname" : "googleapis.com",
-    "ip" : "2607:f8b0:4004:c23::63"
-  },
-  {
-    "hostname" : "googleapis.com",
-    "ip" : "2607:f8b0:4004:c23::67"
+    "ip" : "2607:f8b0:4004:c23::68"
   },
   {
     "hostname" : "googleapis.com",
@@ -1649,55 +1677,59 @@
   },
   {
     "hostname" : "googleapis.com",
+    "ip" : "2607:f8b0:4004:c23::6a"
+  },
+  {
+    "hostname" : "googleapis.com",
     "ip" : "2607:f8b0:4004:c23::93"
   },
   {
     "hostname" : "googlevideo.com",
-    "ip" : "142.251.163.99"
+    "ip" : "172.253.62.99"
   },
   {
     "hostname" : "googlevideo.com",
-    "ip" : "142.251.163.103"
+    "ip" : "172.253.62.103"
   },
   {
     "hostname" : "googlevideo.com",
-    "ip" : "142.251.163.104"
+    "ip" : "172.253.62.104"
   },
   {
     "hostname" : "googlevideo.com",
-    "ip" : "142.251.163.105"
+    "ip" : "172.253.62.105"
   },
   {
     "hostname" : "googlevideo.com",
-    "ip" : "142.251.163.106"
+    "ip" : "172.253.62.106"
   },
   {
     "hostname" : "googlevideo.com",
-    "ip" : "142.251.163.147"
+    "ip" : "172.253.62.147"
   },
   {
     "hostname" : "googlevideo.com",
-    "ip" : "2607:f8b0:4004:c0b::67"
+    "ip" : "2607:f8b0:4004:c23::63"
   },
   {
     "hostname" : "googlevideo.com",
-    "ip" : "2607:f8b0:4004:c0b::68"
+    "ip" : "2607:f8b0:4004:c23::67"
   },
   {
     "hostname" : "googlevideo.com",
-    "ip" : "2607:f8b0:4004:c0b::6a"
+    "ip" : "2607:f8b0:4004:c23::68"
   },
   {
     "hostname" : "googlevideo.com",
-    "ip" : "2607:f8b0:4004:c0b::93"
+    "ip" : "2607:f8b0:4004:c23::6a"
   },
   {
     "hostname" : "graph.facebook.com",
-    "ip" : "57.144.78.141"
+    "ip" : "31.13.66.4"
   },
   {
     "hostname" : "graph.facebook.com",
-    "ip" : "2a03:2880:f003:c07:face:b00c:0:2"
+    "ip" : "2a03:2880:f082:10d:face:b00c:0:2"
   },
   {
     "hostname" : "graph.org",
@@ -1721,23 +1753,23 @@
   },
   {
     "hostname" : "gsa.apple.com",
-    "ip" : "17.179.252.2"
+    "ip" : "17.23.96.10"
   },
   {
     "hostname" : "gstatic.com",
-    "ip" : "142.251.16.94"
+    "ip" : "192.178.155.94"
   },
   {
     "hostname" : "gstatic.com",
-    "ip" : "142.251.16.120"
+    "ip" : "192.178.155.120"
   },
   {
     "hostname" : "gstatic.com",
-    "ip" : "2607:f8b0:4004:c1d::5e"
+    "ip" : "2607:f8b0:4004:c07::5e"
   },
   {
     "hostname" : "gstatic.com",
-    "ip" : "2607:f8b0:4004:c1d::78"
+    "ip" : "2607:f8b0:4004:c07::78"
   },
   {
     "hostname" : "gunnar.com",
@@ -1805,19 +1837,19 @@
   },
   {
     "hostname" : "i1.sndcdn.com",
-    "ip" : "3.171.85.41"
+    "ip" : "3.171.100.35"
   },
   {
     "hostname" : "i1.sndcdn.com",
-    "ip" : "3.171.85.48"
+    "ip" : "3.171.100.94"
   },
   {
     "hostname" : "i1.sndcdn.com",
-    "ip" : "3.171.85.83"
+    "ip" : "3.171.100.100"
   },
   {
     "hostname" : "i1.sndcdn.com",
-    "ip" : "3.171.85.110"
+    "ip" : "3.171.100.129"
   },
   {
     "hostname" : "icloud-content.com",
@@ -1849,19 +1881,15 @@
   },
   {
     "hostname" : "idmsa.apple.com",
-    "ip" : "17.32.194.7"
-  },
-  {
-    "hostname" : "idmsa.apple.com",
-    "ip" : "17.32.194.38"
+    "ip" : "17.179.252.64"
   },
   {
     "hostname" : "ig.me",
-    "ip" : "157.240.254.174"
+    "ip" : "57.144.78.34"
   },
   {
     "hostname" : "ig.me",
-    "ip" : "2a03:2880:f203:e5:face:b00c:0:4420"
+    "ip" : "2a03:2880:f31e:22:face:b00c:0:4420"
   },
   {
     "hostname" : "ikea.com",
@@ -1885,19 +1913,19 @@
   },
   {
     "hostname" : "incy.cc",
-    "ip" : "152.233.50.1"
+    "ip" : "152.233.50.2"
   },
   {
     "hostname" : "incy.cc",
-    "ip" : "2a02:6ea0:e237::1504:1"
+    "ip" : "2400:52e0:1a04::1310:1"
   },
   {
     "hostname" : "instagr.am",
-    "ip" : "31.13.66.174"
+    "ip" : "157.240.254.174"
   },
   {
     "hostname" : "instagr.am",
-    "ip" : "2a03:2880:f203:e5:face:b00c:0:4420"
+    "ip" : "2a03:2880:f275:1e9:face:b00c:0:4420"
   },
   {
     "hostname" : "instagram.com",
@@ -1905,7 +1933,7 @@
   },
   {
     "hostname" : "instagram.com",
-    "ip" : "2a03:2880:f203:e5:face:b00c:0:4420"
+    "ip" : "2a03:2880:f381:22:face:b00c:0:4420"
   },
   {
     "hostname" : "intel.com",
@@ -1965,23 +1993,23 @@
   },
   {
     "hostname" : "itunes.apple.com",
-    "ip" : "2600:1408:c400:1182::2a1"
+    "ip" : "2600:1408:c400:788::2a1"
   },
   {
     "hostname" : "itunes.apple.com",
-    "ip" : "2600:1408:c400:1184::2a1"
+    "ip" : "2600:1408:c400:789::2a1"
   },
   {
     "hostname" : "itunes.apple.com",
-    "ip" : "2600:1408:c400:1185::2a1"
+    "ip" : "2600:1408:c400:78e::2a1"
   },
   {
     "hostname" : "itunes.apple.com",
-    "ip" : "2600:1408:c400:118f::2a1"
+    "ip" : "2600:1408:c400:794::2a1"
   },
   {
     "hostname" : "itunes.apple.com",
-    "ip" : "2600:1408:c400:1192::2a1"
+    "ip" : "2600:1408:c400:796::2a1"
   },
   {
     "hostname" : "karing.app",
@@ -2017,7 +2045,7 @@
   },
   {
     "hostname" : "lookaside.facebook.com",
-    "ip" : "157.240.254.7"
+    "ip" : "31.13.66.19"
   },
   {
     "hostname" : "lookaside.facebook.com",
@@ -2053,19 +2081,19 @@
   },
   {
     "hostname" : "marketplace.visualstudio.com",
-    "ip" : "150.171.73.16"
+    "ip" : "150.171.75.16"
   },
   {
     "hostname" : "marketplace.visualstudio.com",
-    "ip" : "150.171.74.16"
+    "ip" : "150.171.76.16"
   },
   {
     "hostname" : "marketplace.visualstudio.com",
-    "ip" : "2603:1061:10::16"
+    "ip" : "2603:1061:10:2::16"
   },
   {
     "hostname" : "marketplace.visualstudio.com",
-    "ip" : "2603:1061:10:1::16"
+    "ip" : "2603:1061:10:3::16"
   },
   {
     "hostname" : "marzban.click",
@@ -2073,23 +2101,23 @@
   },
   {
     "hostname" : "messenger.com",
-    "ip" : "31.13.66.4"
+    "ip" : "57.144.78.141"
   },
   {
     "hostname" : "messenger.com",
-    "ip" : "2a03:2880:f003:c07:face:b00c:0:2"
+    "ip" : "2a03:2880:f082:10d:face:b00c:0:2"
   },
   {
     "hostname" : "meta.ai",
-    "ip" : "57.145.2.141"
+    "ip" : "157.240.254.12"
   },
   {
     "hostname" : "meta.ai",
-    "ip" : "2a03:2880:f31e:8d:face:b00c:0:2"
+    "ip" : "2a03:2880:f082:10d:face:b00c:0:2"
   },
   {
     "hostname" : "meta.com",
-    "ip" : "57.144.78.141"
+    "ip" : "31.13.66.4"
   },
   {
     "hostname" : "meta.com",
@@ -2117,11 +2145,11 @@
   },
   {
     "hostname" : "mmg.whatsapp.net",
-    "ip" : "57.144.79.32"
+    "ip" : "31.13.66.56"
   },
   {
     "hostname" : "mmg.whatsapp.net",
-    "ip" : "2a03:2880:f31e:120:face:b00c:0:167"
+    "ip" : "2a03:2880:f275:1c7:face:b00c:0:167"
   },
   {
     "hostname" : "modrinth.com",
@@ -2277,7 +2305,7 @@
   },
   {
     "hostname" : "npm.pkg.github.com",
-    "ip" : "140.82.112.34"
+    "ip" : "140.82.113.33"
   },
   {
     "hostname" : "oaistatic.com",
@@ -2297,7 +2325,7 @@
   },
   {
     "hostname" : "objects-origin.githubusercontent.com",
-    "ip" : "140.82.113.21"
+    "ip" : "140.82.112.22"
   },
   {
     "hostname" : "objects.githubusercontent.com",
@@ -2317,39 +2345,35 @@
   },
   {
     "hostname" : "ocsp.apple.com",
-    "ip" : "17.253.21.137"
+    "ip" : "17.253.21.136"
   },
   {
     "hostname" : "ocsp.apple.com",
-    "ip" : "17.253.21.147"
+    "ip" : "17.253.21.148"
   },
   {
     "hostname" : "ocsp.apple.com",
-    "ip" : "2620:149:a10:f000::143"
+    "ip" : "2620:149:a10:f000::138"
   },
   {
     "hostname" : "ocsp.apple.com",
-    "ip" : "2620:149:a10:f000::150"
-  },
-  {
-    "hostname" : "ocsp2.apple.com",
-    "ip" : "17.253.21.138"
-  },
-  {
-    "hostname" : "ocsp2.apple.com",
-    "ip" : "17.253.21.147"
-  },
-  {
-    "hostname" : "ocsp2.apple.com",
-    "ip" : "2620:149:a10:f000::137"
-  },
-  {
-    "hostname" : "ocsp2.apple.com",
     "ip" : "2620:149:a10:f000::141"
   },
   {
+    "hostname" : "ocsp2.apple.com",
+    "ip" : "23.221.240.158"
+  },
+  {
+    "hostname" : "ocsp2.apple.com",
+    "ip" : "2620:149:a10:f000::134"
+  },
+  {
+    "hostname" : "ocsp2.apple.com",
+    "ip" : "2620:149:a10:f000::144"
+  },
+  {
     "hostname" : "open.spotify.com",
-    "ip" : "146.75.39.42"
+    "ip" : "146.75.31.42"
   },
   {
     "hostname" : "open.spotify.com",
@@ -2465,7 +2489,7 @@
   },
   {
     "hostname" : "pkg.github.com",
-    "ip" : "140.82.112.34"
+    "ip" : "140.82.113.33"
   },
   {
     "hostname" : "platform.openai.com",
@@ -2485,11 +2509,11 @@
   },
   {
     "hostname" : "platform.suno.com",
-    "ip" : "64.239.109.129"
+    "ip" : "64.239.109.193"
   },
   {
     "hostname" : "platform.suno.com",
-    "ip" : "64.239.123.129"
+    "ip" : "64.239.123.193"
   },
   {
     "hostname" : "playback.media-streaming.soundcloud.cloud",
@@ -2521,11 +2545,11 @@
   },
   {
     "hostname" : "pps.whatsapp.net",
-    "ip" : "57.144.79.32"
+    "ip" : "57.145.3.32"
   },
   {
     "hostname" : "pps.whatsapp.net",
-    "ip" : "2a03:2880:f203:c5:face:b00c:0:167"
+    "ip" : "2a03:2880:f381:120:face:b00c:0:167"
   },
   {
     "hostname" : "prodregistryv2.org",
@@ -2653,7 +2677,7 @@
   },
   {
     "hostname" : "remoteplay.dl.playstation.net",
-    "ip" : "23.62.104.17"
+    "ip" : "23.222.200.15"
   },
   {
     "hostname" : "retool.com",
@@ -2749,35 +2773,35 @@
   },
   {
     "hostname" : "s.prod.suno.com",
-    "ip" : "2600:9000:21a2:1000:13:7da8:e380:93a1"
+    "ip" : "2600:9000:2209:5400:13:7da8:e380:93a1"
   },
   {
     "hostname" : "s.prod.suno.com",
-    "ip" : "2600:9000:21a2:2000:13:7da8:e380:93a1"
+    "ip" : "2600:9000:2209:7600:13:7da8:e380:93a1"
   },
   {
     "hostname" : "s.prod.suno.com",
-    "ip" : "2600:9000:21a2:2c00:13:7da8:e380:93a1"
+    "ip" : "2600:9000:2209:7800:13:7da8:e380:93a1"
   },
   {
     "hostname" : "s.prod.suno.com",
-    "ip" : "2600:9000:21a2:2e00:13:7da8:e380:93a1"
+    "ip" : "2600:9000:2209:7a00:13:7da8:e380:93a1"
   },
   {
     "hostname" : "s.prod.suno.com",
-    "ip" : "2600:9000:21a2:7000:13:7da8:e380:93a1"
+    "ip" : "2600:9000:2209:8c00:13:7da8:e380:93a1"
   },
   {
     "hostname" : "s.prod.suno.com",
-    "ip" : "2600:9000:21a2:b600:13:7da8:e380:93a1"
+    "ip" : "2600:9000:2209:b200:13:7da8:e380:93a1"
   },
   {
     "hostname" : "s.prod.suno.com",
-    "ip" : "2600:9000:21a2:de00:13:7da8:e380:93a1"
+    "ip" : "2600:9000:2209:ce00:13:7da8:e380:93a1"
   },
   {
     "hostname" : "s.prod.suno.com",
-    "ip" : "2600:9000:21a2:fa00:13:7da8:e380:93a1"
+    "ip" : "2600:9000:2209:f600:13:7da8:e380:93a1"
   },
   {
     "hostname" : "sagernet.org",
@@ -2797,7 +2821,7 @@
   },
   {
     "hostname" : "scontent.whatsapp.net",
-    "ip" : "31.13.66.56"
+    "ip" : "57.145.3.32"
   },
   {
     "hostname" : "scontent.whatsapp.net",
@@ -2853,19 +2877,19 @@
   },
   {
     "hostname" : "sophos.com",
-    "ip" : "23.205.107.72"
+    "ip" : "23.221.227.197"
   },
   {
     "hostname" : "sophos.com",
-    "ip" : "23.205.107.86"
+    "ip" : "23.221.227.212"
   },
   {
     "hostname" : "sophos.com",
-    "ip" : "2600:1408:c400:11::17cd:6b48"
+    "ip" : "2600:1408:c400:16::17d4:f80d"
   },
   {
     "hostname" : "sophos.com",
-    "ip" : "2600:1408:c400:11::17cd:6b56"
+    "ip" : "2600:1408:c400:16::17d4:f812"
   },
   {
     "hostname" : "soundcloud.com",
@@ -2937,7 +2961,7 @@
   },
   {
     "hostname" : "static.nike.com",
-    "ip" : "146.75.30.24"
+    "ip" : "146.75.38.24"
   },
   {
     "hostname" : "static.nike.com",
@@ -2961,51 +2985,51 @@
   },
   {
     "hostname" : "static.ui.com",
-    "ip" : "3.170.19.15"
+    "ip" : "3.162.174.23"
   },
   {
     "hostname" : "static.ui.com",
-    "ip" : "3.170.19.16"
+    "ip" : "3.162.174.40"
   },
   {
     "hostname" : "static.ui.com",
-    "ip" : "3.170.19.23"
+    "ip" : "3.162.174.59"
   },
   {
     "hostname" : "static.ui.com",
-    "ip" : "3.170.19.37"
+    "ip" : "3.162.174.67"
   },
   {
     "hostname" : "static.ui.com",
-    "ip" : "2600:9000:286d:1200:19:941a:1ac0:93a1"
+    "ip" : "2600:9000:286d:e00:19:941a:1ac0:93a1"
   },
   {
     "hostname" : "static.ui.com",
-    "ip" : "2600:9000:286d:5400:19:941a:1ac0:93a1"
+    "ip" : "2600:9000:286d:5000:19:941a:1ac0:93a1"
   },
   {
     "hostname" : "static.ui.com",
-    "ip" : "2600:9000:286d:6600:19:941a:1ac0:93a1"
+    "ip" : "2600:9000:286d:7000:19:941a:1ac0:93a1"
   },
   {
     "hostname" : "static.ui.com",
-    "ip" : "2600:9000:286d:6800:19:941a:1ac0:93a1"
+    "ip" : "2600:9000:286d:a800:19:941a:1ac0:93a1"
   },
   {
     "hostname" : "static.ui.com",
-    "ip" : "2600:9000:286d:c800:19:941a:1ac0:93a1"
+    "ip" : "2600:9000:286d:b000:19:941a:1ac0:93a1"
   },
   {
     "hostname" : "static.ui.com",
-    "ip" : "2600:9000:286d:da00:19:941a:1ac0:93a1"
+    "ip" : "2600:9000:286d:b400:19:941a:1ac0:93a1"
   },
   {
     "hostname" : "static.ui.com",
-    "ip" : "2600:9000:286d:e600:19:941a:1ac0:93a1"
+    "ip" : "2600:9000:286d:d000:19:941a:1ac0:93a1"
   },
   {
     "hostname" : "static.ui.com",
-    "ip" : "2600:9000:286d:fa00:19:941a:1ac0:93a1"
+    "ip" : "2600:9000:286d:d600:19:941a:1ac0:93a1"
   },
   {
     "hostname" : "static.whatsapp.net",
@@ -3025,11 +3049,11 @@
   },
   {
     "hostname" : "status.openai.com",
-    "ip" : "66.33.60.193"
+    "ip" : "66.33.60.67"
   },
   {
     "hostname" : "status.openai.com",
-    "ip" : "76.76.21.241"
+    "ip" : "76.76.21.98"
   },
   {
     "hostname" : "statusz.suno.ai",
@@ -3069,15 +3093,15 @@
   },
   {
     "hostname" : "stripe.com",
-    "ip" : "198.137.150.111"
+    "ip" : "198.137.150.41"
   },
   {
     "hostname" : "stripe.com",
-    "ip" : "198.202.176.111"
+    "ip" : "198.202.176.41"
   },
   {
     "hostname" : "stripe.network",
-    "ip" : "54.187.159.182"
+    "ip" : "54.186.23.98"
   },
   {
     "hostname" : "studio-api-prod.suno.com",
@@ -3565,23 +3589,23 @@
   },
   {
     "hostname" : "trace.svc.ui.com",
-    "ip" : "32.184.29.25"
+    "ip" : "32.184.172.226"
   },
   {
     "hostname" : "trace.svc.ui.com",
-    "ip" : "34.212.7.195"
+    "ip" : "44.226.42.139"
   },
   {
     "hostname" : "trace.svc.ui.com",
-    "ip" : "44.235.135.228"
+    "ip" : "44.226.151.132"
   },
   {
     "hostname" : "trace.svc.ui.com",
-    "ip" : "52.13.49.38"
+    "ip" : "44.241.216.122"
   },
   {
     "hostname" : "trace.svc.ui.com",
-    "ip" : "52.36.238.180"
+    "ip" : "44.249.200.161"
   },
   {
     "hostname" : "trace.svc.ui.com",
@@ -3589,27 +3613,23 @@
   },
   {
     "hostname" : "trace.svc.ui.com",
-    "ip" : "54.184.169.78"
-  },
-  {
-    "hostname" : "trace.svc.ui.com",
     "ip" : "54.203.51.180"
   },
   {
     "hostname" : "trace.svc.ui.com",
-    "ip" : "2600:1f14:598:a400:fc8a:60d1:fc28:e828"
+    "ip" : "184.33.50.173"
   },
   {
     "hostname" : "trace.svc.ui.com",
-    "ip" : "2600:1f14:598:a401:4d23:2188:a70f:5c41"
+    "ip" : "2600:1f14:598:a400:3bfc:5720:7863:fa82"
+  },
+  {
+    "hostname" : "trace.svc.ui.com",
+    "ip" : "2600:1f14:598:a400:e882:4e2b:9436:6564"
   },
   {
     "hostname" : "trace.svc.ui.com",
     "ip" : "2600:1f14:598:a401:7d5c:f3d7:4264:879b"
-  },
-  {
-    "hostname" : "trace.svc.ui.com",
-    "ip" : "2600:1f14:598:a402:4861:7695:751a:3467"
   },
   {
     "hostname" : "trace.svc.ui.com",
@@ -3621,7 +3641,11 @@
   },
   {
     "hostname" : "trace.svc.ui.com",
-    "ip" : "2600:1f14:598:a403:3810:6506:9d5a:2dd3"
+    "ip" : "2600:1f14:598:a403:585a:3e0b:347a:8a96"
+  },
+  {
+    "hostname" : "trace.svc.ui.com",
+    "ip" : "2600:1f14:598:a403:8448:737f:4dc0:1f7b"
   },
   {
     "hostname" : "trace.svc.ui.com",
@@ -3677,35 +3701,35 @@
   },
   {
     "hostname" : "ui.com",
-    "ip" : "2600:9000:250b:c00:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:250b:e00:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "ui.com",
-    "ip" : "2600:9000:250b:1200:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:250b:1a00:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "ui.com",
-    "ip" : "2600:9000:250b:1800:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:250b:2200:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "ui.com",
-    "ip" : "2600:9000:250b:2000:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:250b:3600:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "ui.com",
-    "ip" : "2600:9000:250b:2800:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:250b:4600:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "ui.com",
-    "ip" : "2600:9000:250b:3800:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:250b:7a00:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "ui.com",
-    "ip" : "2600:9000:250b:b000:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:250b:f800:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "ui.com",
-    "ip" : "2600:9000:250b:ec00:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:250b:fe00:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "uizard.io",
@@ -3741,43 +3765,43 @@
   },
   {
     "hostname" : "unifi.ui.com",
-    "ip" : "2600:9000:286a:3e00:6:2c98:ce80:93a1"
+    "ip" : "2600:9000:286a:1800:6:2c98:ce80:93a1"
   },
   {
     "hostname" : "unifi.ui.com",
-    "ip" : "2600:9000:286a:4200:6:2c98:ce80:93a1"
+    "ip" : "2600:9000:286a:1c00:6:2c98:ce80:93a1"
   },
   {
     "hostname" : "unifi.ui.com",
-    "ip" : "2600:9000:286a:6e00:6:2c98:ce80:93a1"
+    "ip" : "2600:9000:286a:5e00:6:2c98:ce80:93a1"
   },
   {
     "hostname" : "unifi.ui.com",
-    "ip" : "2600:9000:286a:a000:6:2c98:ce80:93a1"
+    "ip" : "2600:9000:286a:8400:6:2c98:ce80:93a1"
   },
   {
     "hostname" : "unifi.ui.com",
-    "ip" : "2600:9000:286a:a600:6:2c98:ce80:93a1"
+    "ip" : "2600:9000:286a:9c00:6:2c98:ce80:93a1"
   },
   {
     "hostname" : "unifi.ui.com",
-    "ip" : "2600:9000:286a:ca00:6:2c98:ce80:93a1"
+    "ip" : "2600:9000:286a:be00:6:2c98:ce80:93a1"
   },
   {
     "hostname" : "unifi.ui.com",
-    "ip" : "2600:9000:286a:f000:6:2c98:ce80:93a1"
+    "ip" : "2600:9000:286a:d200:6:2c98:ce80:93a1"
   },
   {
     "hostname" : "unifi.ui.com",
-    "ip" : "2600:9000:286a:f600:6:2c98:ce80:93a1"
+    "ip" : "2600:9000:286a:e400:6:2c98:ce80:93a1"
   },
   {
     "hostname" : "update.code.visualstudio.com",
-    "ip" : "150.171.109.73"
+    "ip" : "150.171.109.74"
   },
   {
     "hostname" : "update.code.visualstudio.com",
-    "ip" : "2603:1061:14:40::1"
+    "ip" : "2603:1061:14:49::1"
   },
   {
     "hostname" : "updates.tdesktop.com",
@@ -3789,7 +3813,7 @@
   },
   {
     "hostname" : "valid.apple.com",
-    "ip" : "17.253.21.131"
+    "ip" : "17.253.21.138"
   },
   {
     "hostname" : "valid.apple.com",
@@ -3801,7 +3825,7 @@
   },
   {
     "hostname" : "valid.apple.com",
-    "ip" : "2620:149:a10:f000::148"
+    "ip" : "2620:149:a10:f000::142"
   },
   {
     "hostname" : "visualstudio.com",
@@ -3821,11 +3845,11 @@
   },
   {
     "hostname" : "vscode.dev",
-    "ip" : "150.171.110.193"
+    "ip" : "150.171.109.74"
   },
   {
     "hostname" : "wa.me",
-    "ip" : "57.144.79.32"
+    "ip" : "31.13.66.56"
   },
   {
     "hostname" : "wa.me",
@@ -3869,7 +3893,7 @@
   },
   {
     "hostname" : "web.nike.com",
-    "ip" : "23.219.4.75"
+    "ip" : "23.39.184.104"
   },
   {
     "hostname" : "web.telegram.org",
@@ -3881,11 +3905,11 @@
   },
   {
     "hostname" : "web.whatsapp.com",
-    "ip" : "57.144.79.32"
+    "ip" : "31.13.66.56"
   },
   {
     "hostname" : "web.whatsapp.com",
-    "ip" : "2a03:2880:f203:c5:face:b00c:0:167"
+    "ip" : "2a03:2880:f275:1c7:face:b00c:0:167"
   },
   {
     "hostname" : "webservices.aptoide.com",
@@ -3893,23 +3917,23 @@
   },
   {
     "hostname" : "webservices.aptoide.com",
-    "ip" : "2001:1af8:4700:104::9"
+    "ip" : "2001:1af8:4700:104::7"
   },
   {
     "hostname" : "whatsapp.com",
-    "ip" : "157.240.254.60"
-  },
-  {
-    "hostname" : "whatsapp.com",
-    "ip" : "2a03:2880:f381:120:face:b00c:0:167"
-  },
-  {
-    "hostname" : "whatsapp.net",
     "ip" : "57.144.79.32"
   },
   {
+    "hostname" : "whatsapp.com",
+    "ip" : "2a03:2880:f203:c5:face:b00c:0:167"
+  },
+  {
     "hostname" : "whatsapp.net",
-    "ip" : "2a03:2880:f381:120:face:b00c:0:167"
+    "ip" : "31.13.66.56"
+  },
+  {
+    "hostname" : "whatsapp.net",
+    "ip" : "2a03:2880:f203:c5:face:b00c:0:167"
   },
   {
     "hostname" : "windows.net",
@@ -4025,11 +4049,11 @@
   },
   {
     "hostname" : "ws75-primary.aptoide.com",
-    "ip" : "37.48.77.181"
+    "ip" : "37.48.77.165"
   },
   {
     "hostname" : "ws75-primary.aptoide.com",
-    "ip" : "2001:1af8:4700:104::7"
+    "ip" : "2001:1af8:4700:104::c"
   },
   {
     "hostname" : "ws75.aptoide.com",
@@ -4049,7 +4073,7 @@
   },
   {
     "hostname" : "www.nike.com",
-    "ip" : "23.34.124.104"
+    "ip" : "23.39.184.112"
   },
   {
     "hostname" : "www.ovhcloud.com",
@@ -4057,67 +4081,67 @@
   },
   {
     "hostname" : "www.soundcloud.com",
-    "ip" : "3.170.42.56"
+    "ip" : "13.225.47.57"
   },
   {
     "hostname" : "www.soundcloud.com",
-    "ip" : "3.170.42.88"
+    "ip" : "13.225.47.62"
   },
   {
     "hostname" : "www.soundcloud.com",
-    "ip" : "3.170.42.103"
+    "ip" : "13.225.47.81"
   },
   {
     "hostname" : "www.soundcloud.com",
-    "ip" : "3.170.42.111"
+    "ip" : "13.225.47.110"
   },
   {
     "hostname" : "www.ui.com",
-    "ip" : "18.160.18.25"
+    "ip" : "3.175.34.21"
   },
   {
     "hostname" : "www.ui.com",
-    "ip" : "18.160.18.40"
+    "ip" : "3.175.34.52"
   },
   {
     "hostname" : "www.ui.com",
-    "ip" : "18.160.18.49"
+    "ip" : "3.175.34.73"
   },
   {
     "hostname" : "www.ui.com",
-    "ip" : "18.160.18.80"
+    "ip" : "3.175.34.117"
   },
   {
     "hostname" : "www.ui.com",
-    "ip" : "2600:9000:250b:0:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:24bf:4200:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "www.ui.com",
-    "ip" : "2600:9000:250b:2c00:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:24bf:5a00:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "www.ui.com",
-    "ip" : "2600:9000:250b:5e00:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:24bf:a200:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "www.ui.com",
-    "ip" : "2600:9000:250b:7200:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:24bf:a800:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "www.ui.com",
-    "ip" : "2600:9000:250b:7600:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:24bf:de00:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "www.ui.com",
-    "ip" : "2600:9000:250b:7a00:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:24bf:e000:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "www.ui.com",
-    "ip" : "2600:9000:250b:a000:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:24bf:e200:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "www.ui.com",
-    "ip" : "2600:9000:250b:c000:1c:894d:51c0:93a1"
+    "ip" : "2600:9000:24bf:ee00:1c:894d:51c0:93a1"
   },
   {
     "hostname" : "www.wordfence.com",
@@ -4153,98 +4177,98 @@
   },
   {
     "hostname" : "youtu.be",
-    "ip" : "142.251.111.91"
+    "ip" : "64.233.180.91"
   },
   {
     "hostname" : "youtu.be",
-    "ip" : "142.251.111.93"
+    "ip" : "64.233.180.93"
   },
   {
     "hostname" : "youtu.be",
-    "ip" : "142.251.111.136"
+    "ip" : "64.233.180.136"
   },
   {
     "hostname" : "youtu.be",
-    "ip" : "142.251.111.190"
+    "ip" : "64.233.180.190"
   },
   {
     "hostname" : "youtu.be",
-    "ip" : "2607:f8b0:4004:c1d::5b"
-  },
-  {
-    "hostname" : "youtu.be",
-    "ip" : "2607:f8b0:4004:c1d::5d"
-  },
-  {
-    "hostname" : "youtu.be",
-    "ip" : "2607:f8b0:4004:c1d::88"
-  },
-  {
-    "hostname" : "youtu.be",
-    "ip" : "2607:f8b0:4004:c1d::be"
-  },
-  {
-    "hostname" : "youtube-nocookie.com",
-    "ip" : "142.251.163.91"
-  },
-  {
-    "hostname" : "youtube-nocookie.com",
-    "ip" : "142.251.163.93"
-  },
-  {
-    "hostname" : "youtube-nocookie.com",
-    "ip" : "142.251.163.136"
-  },
-  {
-    "hostname" : "youtube-nocookie.com",
-    "ip" : "142.251.163.190"
-  },
-  {
-    "hostname" : "youtube-nocookie.com",
     "ip" : "2607:f8b0:4004:c23::5b"
   },
   {
-    "hostname" : "youtube-nocookie.com",
+    "hostname" : "youtu.be",
     "ip" : "2607:f8b0:4004:c23::5d"
   },
   {
-    "hostname" : "youtube-nocookie.com",
+    "hostname" : "youtu.be",
     "ip" : "2607:f8b0:4004:c23::88"
   },
   {
-    "hostname" : "youtube-nocookie.com",
+    "hostname" : "youtu.be",
     "ip" : "2607:f8b0:4004:c23::be"
   },
   {
-    "hostname" : "youtube.com",
-    "ip" : "142.251.167.91"
+    "hostname" : "youtube-nocookie.com",
+    "ip" : "64.233.180.91"
+  },
+  {
+    "hostname" : "youtube-nocookie.com",
+    "ip" : "64.233.180.93"
+  },
+  {
+    "hostname" : "youtube-nocookie.com",
+    "ip" : "64.233.180.136"
+  },
+  {
+    "hostname" : "youtube-nocookie.com",
+    "ip" : "64.233.180.190"
+  },
+  {
+    "hostname" : "youtube-nocookie.com",
+    "ip" : "2607:f8b0:4004:c1f::5b"
+  },
+  {
+    "hostname" : "youtube-nocookie.com",
+    "ip" : "2607:f8b0:4004:c1f::5d"
+  },
+  {
+    "hostname" : "youtube-nocookie.com",
+    "ip" : "2607:f8b0:4004:c1f::88"
+  },
+  {
+    "hostname" : "youtube-nocookie.com",
+    "ip" : "2607:f8b0:4004:c1f::be"
   },
   {
     "hostname" : "youtube.com",
-    "ip" : "142.251.167.93"
+    "ip" : "173.194.45.91"
   },
   {
     "hostname" : "youtube.com",
-    "ip" : "142.251.167.136"
+    "ip" : "173.194.45.93"
   },
   {
     "hostname" : "youtube.com",
-    "ip" : "142.251.167.190"
+    "ip" : "173.194.45.136"
   },
   {
     "hostname" : "youtube.com",
-    "ip" : "2607:f8b0:4004:c1b::5b"
+    "ip" : "173.194.45.190"
   },
   {
     "hostname" : "youtube.com",
-    "ip" : "2607:f8b0:4004:c1b::5d"
+    "ip" : "2607:f8b0:4004:c2d::5b"
   },
   {
     "hostname" : "youtube.com",
-    "ip" : "2607:f8b0:4004:c1b::88"
+    "ip" : "2607:f8b0:4004:c2d::5d"
   },
   {
     "hostname" : "youtube.com",
-    "ip" : "2607:f8b0:4004:c1b::be"
+    "ip" : "2607:f8b0:4004:c2d::88"
+  },
+  {
+    "hostname" : "youtube.com",
+    "ip" : "2607:f8b0:4004:c2d::be"
   }
 ]
