@@ -11,12 +11,14 @@ Use this skill to add a service to BroList with a confirm-before-edit workflow. 
 
 ## Repository Rules
 
-- Work from the current BroList checkout unless the user gives another one. Resolve its root with `git rev-parse --show-toplevel`, run repository commands from that root, and verify it contains `brolist.txt` and `scripts/resolve.py` before making changes.
+- Resolve the current BroList root with `git rev-parse --show-toplevel` and verify it contains `brolist.txt` and `scripts/resolve.py`.
 - Synchronize with GitHub before editing:
-  - Check `git status --short`.
-  - If there are unrelated local changes, stop and explain what blocks a clean sync.
-  - Run `git fetch origin` and `git pull --ff-only origin main` before changing `brolist.txt`.
-- Push directly to `main` after approval and validation.
+  - Inspect `git status --short`, the current branch, and `git fetch origin`.
+  - On a clean `main` with no local-only commits, run `git pull --ff-only origin main` and work in the current checkout.
+  - If there are unrelated local changes, local-only commits, or another branch is checked out, preserve that checkout and use a clean temporary worktree based on `origin/main`. Inspect the local changes for overlap with the approved entries. Do not stop solely because the original checkout is dirty or diverged.
+  - Do not automatically stash, reset, merge, rebase, or publish unrelated local work. If the user explicitly asks to repair their checkout, first preserve local commits and uncommitted changes in a recoverable backup branch before aligning it with GitHub.
+- In this skill, confirmation of the final list (including “добавляй”) authorizes editing, validation, committing, and pushing that list to `main`. Continue through all these steps without requesting the same approval again, unless the user explicitly limited the request to local changes or a draft.
+- Push only the approved service change directly to `main`; unrelated commits must not be included.
 - Do not manually edit generated outputs unless explicitly requested:
   - `ips.txt`
   - `ips_v4.txt`
@@ -87,7 +89,7 @@ Proceed only after the user confirms the final list, edits the list, or says an 
 
 After confirmation:
 
-- Re-check sync state if meaningful time has passed or new local changes appeared.
+- Re-check sync state if meaningful time has passed or new local changes appeared; use the isolation rule above when needed.
 - Insert entries into the confirmed section.
 - Preserve the file's existing style:
   - Section headers are comment lines such as `#AI | OPEN AI`.
@@ -121,8 +123,14 @@ Commit only `brolist.txt` by default:
 ```bash
 git add brolist.txt
 git commit -m "Add <service> to BroList"
-git push origin main
+git push origin HEAD:main
 ```
+
+Before committing, inspect the staged diff and ensure it contains only the approved source changes. In an isolated worktree, commit there and push `HEAD:main` so an old local `main` is not accidentally published.
+
+If a normal push is rejected because GitHub Actions advanced `main`, fetch again and rebase only the current task's commits onto `origin/main`, then retry the normal push up to three times. Review the source diff after rebasing; rerun validation if the source list or resolver changed. Never force-push. Stop and explain a source conflict or repeated push failure rather than broadening the approved scope.
+
+After pushing, fetch and verify the published commit is an ancestor of `origin/main`. If the working `main` is clean and can advance without incorporating unrelated commits, fast-forward it to `origin/main`. Otherwise leave the original checkout untouched and report where its pending work remains. Remove the temporary worktree when it is no longer needed.
 
 If validation fails, do not commit or push. Explain the failure and the safest next step.
 
