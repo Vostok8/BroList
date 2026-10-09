@@ -12,14 +12,15 @@ Use this skill to add a service to BroList with a confirm-before-edit workflow. 
 ## Repository Rules
 
 - Resolve the current BroList root with `git rev-parse --show-toplevel` and verify it contains `brolist.txt` and `scripts/resolve.py`.
-- Synchronize with GitHub before editing:
-  - Inspect `git status --short`, the current branch, and `git fetch origin`.
-  - On a clean `main` with no local-only commits, run `git pull --ff-only origin main` and work in the current checkout.
-  - If there are unrelated local changes, local-only commits, or another branch is checked out, preserve that checkout and use a clean temporary worktree based on `origin/main`. Inspect the local changes for overlap with the approved entries. Do not stop solely because the original checkout is dirty or diverged.
-  - Do not automatically stash, reset, merge, rebase, or publish unrelated local work. If the user explicitly asks to repair their checkout, first preserve local commits and uncommitted changes in a recoverable backup branch before aligning it with GitHub.
+- Synchronize the current repository with GitHub at skill startup, before researching or adding the service. `brolist.txt` is the authoritative source; the generated files listed below are replaceable outputs.
+  - Inspect the current branch, staged and unstaged changes, then run `git fetch origin`. Compare `main` with `origin/main`, checking both `brolist.txt` and the paths changed by any local-only commits. Do not treat a cached `origin/main` as current after a failed fetch.
+  - On `main` with no local-only commits and no pending source changes, replace local changes to the listed generated files with their committed versions, then run `git pull --ff-only origin main`. Continue in the current checkout. Being behind only on automatic output updates is a normal sync case and does not justify a temporary worktree.
+  - If local-only commits change only the listed generated files, `brolist.txt` matches `origin/main`, and there are no pending changes outside those outputs, preserve the old HEAD on a named backup branch, then align `main` to `origin/main`. These output-only changes may be replaced without another confirmation. Never force-push them or publish them as part of the service addition.
+  - If `brolist.txt` or other source files have local work, or another branch is checked out, preserve that work and use a clean temporary worktree based on `origin/main`. Inspect local `brolist.txt` changes for overlap with the proposed entries; report any unresolved source divergence. Do not automatically discard, stash, merge, rebase, or publish unrelated source work.
+  - Skill invocation authorizes this preparatory synchronization of replaceable outputs. Confirmation is required for the proposed service entries, not for bringing an otherwise compatible local `main` up to date.
 - In this skill, confirmation of the final list (including “добавляй”) authorizes editing, validation, committing, and pushing that list to `main`. Continue through all these steps without requesting the same approval again, unless the user explicitly limited the request to local changes or a draft.
 - Push only the approved service change directly to `main`; unrelated commits must not be included.
-- Do not manually edit generated outputs unless explicitly requested:
+- Do not manually author or commit generated outputs unless explicitly requested. Replacing their local changes during the synchronization described above is permitted:
   - `ips.txt`
   - `ips_v4.txt`
   - `ips_v6.txt`
@@ -56,7 +57,7 @@ Static IPv4/CIDR entries are allowed only when they are officially published or 
 
 ### 3. Present Strict Confirmation Format
 
-Before editing files, present exactly this format and wait for user confirmation:
+Before editing `brolist.txt`, present exactly this format and wait for user confirmation:
 
 ```markdown
 Service: <service>
@@ -130,7 +131,7 @@ Before committing, inspect the staged diff and ensure it contains only the appro
 
 If a normal push is rejected because GitHub Actions advanced `main`, fetch again and rebase only the current task's commits onto `origin/main`, then retry the normal push up to three times. Review the source diff after rebasing; rerun validation if the source list or resolver changed. Never force-push. Stop and explain a source conflict or repeated push failure rather than broadening the approved scope.
 
-After pushing, fetch and verify the published commit is an ancestor of `origin/main`. If the working `main` is clean and can advance without incorporating unrelated commits, fast-forward it to `origin/main`. Otherwise leave the original checkout untouched and report where its pending work remains. Remove the temporary worktree when it is no longer needed.
+After pushing, fetch and verify the published commit is an ancestor of `origin/main`. Synchronize the original local `main` using the same source/output rules above, so automatic output changes do not leave it unnecessarily behind. If unrelated source work prevents synchronization, preserve it and report the remaining divergence. Remove the temporary worktree when it is no longer needed.
 
 If validation fails, do not commit or push. Explain the failure and the safest next step.
 
